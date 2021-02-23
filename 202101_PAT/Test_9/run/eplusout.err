@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.01.30 05:17,
+Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.02.22 16:30,
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
@@ -37,4 +37,4 @@ Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.01.30 05:17,
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 15 Warning; 0 Severe Errors; Elapsed Time=00hr 01min 18.72sec
+   ************* EnergyPlus Completed Successfully-- 15 Warning; 0 Severe Errors; Elapsed Time=00hr 01min 12.24sec

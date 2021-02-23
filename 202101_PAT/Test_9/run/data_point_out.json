@@ -1,10 +1,10 @@
 {
   "Input_CSV": {
-    "input_csv_folder_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input",
+    "input_csv_folder_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Deliverable/gitUploaded/202101_PAT/Input/PAT_calibration_input",
     "test_data": "Experiment9_200707_input.csv",
     "year_input": 2019,
-    "measure_run_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment9_200707_input_out.csv",
-    "measure_meter_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment9_200707_input_metered.csv",
+    "measure_run_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Deliverable/gitUploaded/202101_PAT/Test_9/Experiment9_200707_input_out.csv",
+    "measure_meter_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Deliverable/gitUploaded/202101_PAT/Test_9/Experiment9_200707_input_metered.csv",
     "applicable": true
   },
   "ModelInputRCoil": {
