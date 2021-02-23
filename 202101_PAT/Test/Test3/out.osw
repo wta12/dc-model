@@ -1,0 +1,588 @@
+{
+   "completed_at" : "20210118T021132Z",
+   "completed_status" : "Success",
+   "created_at" : "20210118T021042Z",
+   "current_step" : 6,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.01.17 18:10,\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON DISCRETE 1\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** CheckUsedConstructions: There are 3 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** Output:Meter: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file\n   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,\n   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;\n   ************* Key=CoolingBox_ThermalZone, VarName=ZONE ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep\n   ************* Key=CoolingBox_ThermalZone, VarName=ZONE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=ScheduleFileInternalGain, VarName=SCHEDULE VALUE, Frequency=TimeStep\n   ************* Key=ScheduleFileTest, VarName=SCHEDULE VALUE, Frequency=TimeStep\n   ************* Key=Surface 2, VarName=SURFACE OUTSIDE FACE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=Surface 3, VarName=SURFACE OUTSIDE FACE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=Surface 4, VarName=SURFACE OUTSIDE FACE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=Surface 5, VarName=SURFACE OUTSIDE FACE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=Surface 6, VarName=SURFACE OUTSIDE FACE OUTDOOR AIR DRYBULB TEMPERATURE, Frequency=TimeStep\n   ************* Key=*, VarName=ZONE MIXING CURRENT DENSITY VOLUME FLOW RATE, Frequency=TimeStep\n   ************* Key=PLENUMZONE, VarName=ZONE AIR TEMPERATURE, Frequency=TimeStep\n   ************* There are 5 unused schedules in input.\n   ************* There are 5 unused week schedules in input.\n   ************* There are 5 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 15 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 38.08sec\n",
+   "file_paths" : 
+   [
+      "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files",
+      "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "3830BCCA",
+   "measure_paths" : 
+   [
+      "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"
+   ],
+   "seed_file" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/05_NewFreezer_Thermal_mass_20191212_RunBatch_out.osm",
+   "started_at" : "20210118T021045Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "input_csv_folder_path" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input",
+            "test_data" : "Experiment3_200124_input.csv"
+         },
+         "measure_dir_name" : "PAT_Csv_Input",
+         "result" : 
+         {
+            "completed_at" : "20210118T021051Z",
+            "measure_class_name" : "Input_CSV",
+            "measure_display_name" : "InputCSV",
+            "measure_name" : "input_csv",
+            "measure_taxonomy" : "HVAC.Cooling",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "ca3bcc61-7088-4801-befe-a2e8e696fa37",
+            "measure_version_id" : "a3736530-cc5d-41e0-b306-cf3f6e298366",
+            "measure_version_modified" : "20210116T075916Z",
+            "measure_xml_checksum" : "01858CFD",
+            "started_at" : "20210118T021045Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "Output: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_out.csv",
+            "step_info" : 
+            [
+               "Join input exist: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input/Experiment3_200124_input.csv",
+               "\u043f\u00bb\u0457Time ; Total Internal Heat Gain ; External_temp ; Internal_temp",
+               "170 - First_Warmup_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/01 00:01\"], [\"Total Internal Heat Gain\", \"0.0\"], [\"External_temp\", \"21.04\"], [\"Internal_temp\", \"21.28\"]]",
+               "171 - End_Warmup_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/02 00:00\"], [\"Total Internal Heat Gain\", \"0.0\"], [\"External_temp\", \"21.04\"], [\"Internal_temp\", \"21.28\"]]",
+               "234 - First_Test_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/02 00:01\"], [\"Total Internal Heat Gain\", \"26.56\"], [\"External_temp\", \"21.04\"], [\"Internal_temp\", \"21.28\"]]",
+               "235 - Second_Test_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/02 00:02\"], [\"Total Internal Heat Gain\", \"26.57\"], [\"External_temp\", \"20.88\"], [\"Internal_temp\", \"21.41\"]]",
+               "236 - End_Cooling_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/03 20:16\"], [\"Total Internal Heat Gain\", \"26.32\"], [\"External_temp\", \"20.74\"], [\"Internal_temp\", \"57.98\"]]",
+               "237 - End_Test_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/03 21:05\"], [\"Total Internal Heat Gain\", \"26.36\"], [\"External_temp\", \"21\"], [\"Internal_temp\", \"58.2\"]]",
+               "253 - First_Remain_row: [[\"\u043f\u00bb\u0457Time\", \"2019/01/03 21:06\"], [\"Total Internal Heat Gain\", \"0.0\"], [\"External_temp\", \"21\"], [\"Internal_temp\", \"58.2\"]]",
+               "256 - End_Remain_row: [[\"\u043f\u00bb\u0457Time\", \"2020/01/01 00:00\"], [\"Total Internal Heat Gain\", \"0.0\"], [\"External_temp\", \"21\"], [\"Internal_temp\", \"58.2\"]]",
+               "RawInput_period: 2020/01/22 14:16 - 2020/01/23 22:41",
+               "Metered_period: 01/02/2019 00:01 - 01/03/2019 08:26"
+            ],
+            "step_initial_condition" : "Input: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input/Experiment3_200124_input.csv",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "input_csv_folder_path",
+                  "value" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input"
+               },
+               {
+                  "name" : "test_data",
+                  "value" : "Experiment3_200124_input.csv"
+               },
+               {
+                  "name" : "year_input",
+                  "value" : 2019
+               },
+               {
+                  "name" : "measure_run_csv_path",
+                  "value" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_out.csv"
+               },
+               {
+                  "name" : "measure_meter_csv_path",
+                  "value" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_metered.csv"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 0.037999999999999999,
+            "rcoil_coff" : 0,
+            "zone_capacitance_value" : 21
+         },
+         "measure_dir_name" : "PAT_Model_Input_new",
+         "result" : 
+         {
+            "completed_at" : "20210118T021051Z",
+            "measure_class_name" : "ModelInputRCoil",
+            "measure_display_name" : "ModelInputRCoil",
+            "measure_name" : "model_input_r_coil",
+            "measure_taxonomy" : "HVAC.Cooling",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "a17fe54c-d703-4390-adfd-f19364e384ac",
+            "measure_version_id" : "a7227128-8374-46f4-9cd0-1be187790ce9",
+            "measure_version_modified" : "20201227T231027Z",
+            "measure_xml_checksum" : "01858CFD",
+            "started_at" : "20210118T021051Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "Following objects created:\n      OS:ElectricEquipment:Definition,\n  {148aa652-e244-4494-97c6-79675e4c21e4}, !- Handle\n  Convective_Internal_gain_100.0W,        !- Name\n  EquipmentLevel,                         !- Design Level Calculation Method\n  100,                                    !- Design Level {W}\n  ,                                       !- Watts per Space Floor Area {W/m2}\n  ;                                       !- Watts per Person {W/person}\n\n,\n      OS:ElectricEquipment:Definition,\n  {2d073c5c-0a8d-4639-a08a-6081355e8412}, !- Handle\n  Radiative_Internal_gain_100.0W,         !- Name\n  EquipmentLevel,                         !- Design Level Calculation Method\n  100,                                    !- Design Level {W}\n  ,                                       !- Watts per Space Floor Area {W/m2}\n  ,                                       !- Watts per Person {W/person}\n  ,                                       !- Fraction Latent\n  1;                                      !- Fraction Radiant\n\n",
+            "step_info" : 
+            [
+               "",
+               "Clean up model done",
+               "OS:Schedule:File,\n  {b191fedc-e349-4843-be30-6034b5faf262}, !- Handle\n  CONVECTIVE_LOAD_SCHEDULE,               !- Name\n  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name\n  {0d40675e-bfdb-4e46-8f6e-2a5ca8aa12ad}, !- External File Name\n  6,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  ,                                       !- Column Separator\n  ,                                       !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n"
+            ],
+            "step_initial_condition" : "Input: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_out.csv",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "input_csv_path",
+                  "value" : "\"data_file.csv\""
+               },
+               {
+                  "name" : "rcoil_coff",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "zone_capacitance_value",
+                  "value" : 21.0
+               },
+               {
+                  "name" : "r_value",
+                  "value" : 0.037999999999999999
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "bronze_thermal_mass_layer_thickness" : 0.040000000000000001,
+            "plenum_surface_area" : 0,
+            "plenum_thickness" : 0,
+            "surface_area" : 0.02
+         },
+         "measure_dir_name" : "PAT_ThermalMass",
+         "result" : 
+         {
+            "completed_at" : "20210118T021051Z",
+            "measure_class_name" : "ThermalMassInput",
+            "measure_display_name" : "Thermal Mass Input",
+            "measure_name" : "thermal_mass_input",
+            "measure_taxonomy" : "HVAC.Cooling",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "8ef13913-d320-4e90-85b4-fd960681767c",
+            "measure_version_id" : "17ffcc7d-b47b-4bbb-b402-2ce5b11bef84",
+            "measure_version_modified" : "20201026T222240Z",
+            "measure_xml_checksum" : "01858CFD",
+            "started_at" : "20210118T021051Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_initial_condition" : "Input - bronze_thermal_mass_layer_thickness: 0.04",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "surface_area",
+                  "value" : 0.02
+               },
+               {
+                  "name" : "bronze_thermal_mass_layer_thickness",
+                  "value" : 0.040000000000000001
+               },
+               {
+                  "name" : "plenum_surface_area",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "plenum_thickness",
+                  "value" : 0.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "mixing_flowrate" : 0
+         },
+         "measure_dir_name" : "ideal_loads_options",
+         "result" : 
+         {
+            "completed_at" : "20210118T021051Z",
+            "measure_class_name" : "IdealLoadsOptions",
+            "measure_display_name" : "Ideal Loads Options",
+            "measure_name" : "ideal_loads_options",
+            "measure_taxonomy" : "HVAC.Whole System",
+            "measure_type" : "EnergyPlusMeasure",
+            "measure_uid" : "ae756607-68ba-4615-87df-a0870beede98",
+            "measure_version_id" : "c53feba8-88f8-4926-9cd0-1e3b4c28d388",
+            "measure_version_modified" : "20210113T161422Z",
+            "measure_xml_checksum" : "DAE0171F",
+            "started_at" : "20210118T021051Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "TEst: false",
+               "System Name: Thermal Zone: Steca_Freezer_Compressor_Chamber",
+               "System Name: Conditioned_Zone",
+               "",
+               "ScheduleFile\nSchedule:File,\n  RADIATION_LOAD_SCHEDULE,                !- Name\n  Fractional,                             !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  7,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  MEASURED_TOTAL_HEAT_GAIN,               !- Name\n  HeatGainSchedule,                       !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  2,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  HVAC_SCHEDULE,                          !- Name\n  Temperature,                            !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  5,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  CONVECTIVE_LOAD_SCHEDULE,               !- Name\n  Fractional,                             !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  6,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  MeasuredPeriod,                         !- Name\n  Fractional,                             !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  8,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  MEASURED_EXTERNAL_TEMPERATURE,          !- Name\n  Temperature,                            !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  3,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ScheduleFile\nSchedule:File,\n  MEASURED_CHAMBER_TEMPERATURE,           !- Name\n  Temperature,                            !- Schedule Type Limits Name\n  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment3_200124_input_out.csv, !- File Name\n  4,                                      !- Column Number\n  1,                                      !- Rows to Skip at Top\n  ,                                       !- Number of Hours of Data\n  Comma,                                  !- Column Separator\n  No,                                     !- Interpolate to Timestep\n  1;                                      !- Minutes per Item\n\n",
+               "ArgumentValue: "
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "idealLoadSystem",
+                  "value" : "Conditioned_Zone"
+               },
+               {
+                  "name" : "availability_schedule",
+                  "value" : "HVAC_SCHEDULE"
+               },
+               {
+                  "name" : "mixing_flowrate",
+                  "value" : 0.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "plot_name" : "Test3_RCoil_RunBatch0.0_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.02_ThermalMassThickness:0.04_PlenumThermalMassArea:0.0_PlenumThermalMassThickness:0.0_MixingFlow_rate:0.0",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function",
+         "result" : 
+         {
+            "completed_at" : "20210118T021130Z",
+            "measure_class_name" : "TimeseriesObjectiveFunction",
+            "measure_display_name" : "TimeSeries Objective Function",
+            "measure_name" : "timeseries_objective_function",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ReportingMeasure",
+            "measure_uid" : "6804217d-4737-45f3-82df-b81393c29ce3",
+            "measure_version_id" : "20aea571-d2eb-464c-ba76-7659863a4016",
+            "measure_version_modified" : "20210113T224813Z",
+            "measure_xml_checksum" : "FFE04372",
+            "started_at" : "20210118T021130Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : 
+            [
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function/timeseries_ZoneTemperature.json",
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function/allseries_ZoneTemperature.json",
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function/report_Test3_RCoil_RunBatch0.0_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.02_ThermalMassThickness:0.04_PlenumThermalMassArea:0.0_PlenumThermalMassThickness:0.0_MixingFlow_rate:0.0.html"
+            ],
+            "step_info" : 
+            [
+               "csv_name: ../../../lib/Experiment2_200114_input_out.csv - csv_time_header Date/Time, csv_var - ZoneTemperature, sql_key - Conditioned_Zone",
+               "csv_name: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_metered.csv",
+               "environment_period: RUN PERIOD 1",
+               "environment_periods: [\"RUN PERIOD 1\"]",
+               "map: {\"ZoneTemperature\"=>{:key=>\"Conditioned_Zone\", :var=>\"Zone Air Temperature\", :index=>0}}",
+               "final_avail: true",
+               "available timeseries: [\"DistrictCooling:Facility\", \"DistrictHeating:Facility\", \"Electric Equipment Electric Power\", \"Electricity:Facility\", \"Schedule Value\", \"Site Diffuse Solar Radiation Rate per Area\", \"Site Direct Solar Radiation Rate per Area\", \"Site Outdoor Air Drybulb Temperature\", \"Site Wind Speed\", \"Zone Air Heat Balance Air Energy Storage Rate\", \"Zone Air Heat Balance Deviation Rate\", \"Zone Air Heat Balance Internal Convective Heat Gain Rate\", \"Zone Air Heat Balance Outdoor Air Transfer Rate\", \"Zone Air Heat Balance Surface Convection Rate\", \"Zone Air Heat Balance System Air Transfer Rate\", \"Zone Air Heat Balance System Convective Heat Gain Rate\", \"Zone Air System Sensible Cooling Energy\", \"Zone Air System Sensible Heating Energy\", \"Zone Air Temperature\", \"Zone Electric Equipment Electric Power\", \"Zone Electric Equipment Total Heating Energy\", \"Zone Electric Equipment Total Heating Rate\", \"Zone Ideal Loads Zone Total Cooling Energy\", \"Zone Ideal Loads Zone Total Cooling Rate\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy\", \"Zone Total Internal Convective Heating Rate\", \"Zone Total Internal Radiant Heating Rate\", \"Zone Total Internal Total Heating Rate\"]",
+               "",
+               "available EnvPeriod: RUN PERIOD 1, available ReportingFrequencies: [\"Daily\", \"Zone Timestep\"]",
+               "available variable names: [\"Electricity:Facility\"]",
+               "variable names: Electricity:Facility",
+               "available key value: [\"\"]",
+               "available variable names: [\"DistrictCooling:Facility\", \"DistrictHeating:Facility\", \"Electric Equipment Electric Power\", \"Electricity:Facility\", \"Schedule Value\", \"Site Diffuse Solar Radiation Rate per Area\", \"Site Direct Solar Radiation Rate per Area\", \"Site Outdoor Air Drybulb Temperature\", \"Site Wind Speed\", \"Zone Air Heat Balance Air Energy Storage Rate\", \"Zone Air Heat Balance Deviation Rate\", \"Zone Air Heat Balance Internal Convective Heat Gain Rate\", \"Zone Air Heat Balance Outdoor Air Transfer Rate\", \"Zone Air Heat Balance Surface Convection Rate\", \"Zone Air Heat Balance System Air Transfer Rate\", \"Zone Air Heat Balance System Convective Heat Gain Rate\", \"Zone Air System Sensible Cooling Energy\", \"Zone Air System Sensible Heating Energy\", \"Zone Air Temperature\", \"Zone Electric Equipment Electric Power\", \"Zone Electric Equipment Total Heating Energy\", \"Zone Electric Equipment Total Heating Rate\", \"Zone Ideal Loads Zone Total Cooling Energy\", \"Zone Ideal Loads Zone Total Cooling Rate\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy\", \"Zone Total Internal Convective Heating Rate\", \"Zone Total Internal Radiant Heating Rate\", \"Zone Total Internal Total Heating Rate\"]",
+               "variable names: DistrictCooling:Facility",
+               "available key value: [\"\"]",
+               "variable names: DistrictHeating:Facility",
+               "available key value: [\"\"]",
+               "variable names: Electric Equipment Electric Power",
+               "available key value: [\"CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN\", \"CONDITIONED_SPACE_RADIATIONINTERNALGAIN\"]",
+               "variable names: Electricity:Facility",
+               "available key value: [\"\"]",
+               "variable names: Schedule Value",
+               "available key value: [\"CONSTANT AMBIENT TEMEPERATURE\", \"CONVECTIVE_LOAD_SCHEDULE\", \"HVAC_SCHEDULE\", \"MEASUREDPERIOD\", \"MEASURED_CHAMBER_TEMPERATURE\", \"MEASURED_EXTERNAL_TEMPERATURE\", \"MEASURED_TOTAL_HEAT_GAIN\", \"RADIATION_LOAD_SCHEDULE\"]",
+               "variable names: Site Diffuse Solar Radiation Rate per Area",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Direct Solar Radiation Rate per Area",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Outdoor Air Drybulb Temperature",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Wind Speed",
+               "available key value: [\"Environment\"]",
+               "variable names: Zone Air Heat Balance Air Energy Storage Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Deviation Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Internal Convective Heat Gain Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Outdoor Air Transfer Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Surface Convection Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance System Air Transfer Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance System Convective Heat Gain Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air System Sensible Cooling Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air System Sensible Heating Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Temperature",
+               "available key value: [\"CONDITIONED_ZONE\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER\"]",
+               "variable names: Zone Electric Equipment Electric Power",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Electric Equipment Total Heating Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Electric Equipment Total Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Ideal Loads Zone Total Cooling Energy",
+               "available key value: [\"CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM\"]",
+               "variable names: Zone Ideal Loads Zone Total Cooling Rate",
+               "available key value: [\"CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM\"]",
+               "variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Convective Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Radiant Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Total Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "year: true",
+               "seconds: false",
+               "CSV Time format is correct: 01/02/2019 00:01 mm:dd:yy hh:mm",
+               "Begin timeseries parsing",
+               "timezone = -8.0",
+               "timezone = -08:00",
+               "{\"ZoneTemperature\"=>{:key=>\"Conditioned_Zone\", :var=>\"Zone Air Temperature\", :index=>0}} ",
+               "Date/Time - Date/Time - false - [\"ZoneTemperature\"]   - true",
+               "Found Time Header: Date/Time",
+               "ZoneTemperature - Date/Time - true - [\"ZoneTemperature\"]   - false",
+               "hdr is: ZoneTemperature",
+               "csv_var is: ZoneTemperature",
+               "var: Zone Air Temperature",
+               "key: Conditioned_Zone",
+               "[\"RUN PERIOD 1\"]",
+               "sqlcall: RUN PERIOD 1,Timestep,Zone Air Temperature,Conditioned_Zone",
+               "ySum - 103442.34999999977 - n -> 1946",
+               "Saving timeseries_ZoneTemperature.json",
+               "start plotting"
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "diff",
+                  "units" : "",
+                  "value" : 821.8706929802438
+               },
+               {
+                  "name" : "simdata",
+                  "units" : "",
+                  "value" : 103598.72418975683
+               },
+               {
+                  "name" : "csvdata",
+                  "units" : "",
+                  "value" : 103442.34999999977
+               },
+               {
+                  "name" : "cvrmse",
+                  "units" : "",
+                  "value" : 0.9337164949751916
+               },
+               {
+                  "name" : "nmbe",
+                  "units" : "",
+                  "value" : -0.15117037630795663
+               },
+               {
+                  "name" : "zone_temperature_nmbe",
+                  "units" : "",
+                  "value" : -0.15117037630795663
+               },
+               {
+                  "name" : "zone_temperature_cvrmse",
+                  "units" : "",
+                  "value" : 0.9337164949751916
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "csv_var" : "PlenumTemperature",
+            "key_value" : "PLENUMZONE",
+            "plot_name" : "PlenumZoneTest3_RCoil_RunBatch0.0_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.02_ThermalMassThickness:0.04_PlenumThermalMassArea:0.0_PlenumThermalMassThickness:0.0_MixingFlow_rate:0.0",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function",
+         "result" : 
+         {
+            "completed_at" : "20210118T021131Z",
+            "measure_class_name" : "TimeseriesObjectiveFunction",
+            "measure_display_name" : "TimeSeries Objective Function",
+            "measure_name" : "timeseries_objective_function",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ReportingMeasure",
+            "measure_uid" : "6804217d-4737-45f3-82df-b81393c29ce3",
+            "measure_version_id" : "20aea571-d2eb-464c-ba76-7659863a4016",
+            "measure_version_modified" : "20210113T224813Z",
+            "measure_xml_checksum" : "FFE04372",
+            "started_at" : "20210118T021131Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : 
+            [
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function/allseries_PlenumTemperature.json",
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function/report_PlenumZoneTest3_RCoil_RunBatch0.0_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.02_ThermalMassThickness:0.04_PlenumThermalMassArea:0.0_PlenumThermalMassThickness:0.0_MixingFlow_rate:0.0.html",
+               "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function/timeseries_PlenumTemperature.json"
+            ],
+            "step_info" : 
+            [
+               "csv_name: ../../../lib/Experiment2_200114_input_out.csv - csv_time_header Date/Time, csv_var - PlenumTemperature, sql_key - PLENUMZONE",
+               "csv_name: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment3_200124_input_metered.csv",
+               "environment_period: RUN PERIOD 1",
+               "environment_periods: [\"RUN PERIOD 1\"]",
+               "map: {\"PlenumTemperature\"=>{:key=>\"PLENUMZONE\", :var=>\"Zone Air Temperature\", :index=>0}}",
+               "final_avail: true",
+               "available timeseries: [\"DistrictCooling:Facility\", \"DistrictHeating:Facility\", \"Electric Equipment Electric Power\", \"Electricity:Facility\", \"Schedule Value\", \"Site Diffuse Solar Radiation Rate per Area\", \"Site Direct Solar Radiation Rate per Area\", \"Site Outdoor Air Drybulb Temperature\", \"Site Wind Speed\", \"Zone Air Heat Balance Air Energy Storage Rate\", \"Zone Air Heat Balance Deviation Rate\", \"Zone Air Heat Balance Internal Convective Heat Gain Rate\", \"Zone Air Heat Balance Outdoor Air Transfer Rate\", \"Zone Air Heat Balance Surface Convection Rate\", \"Zone Air Heat Balance System Air Transfer Rate\", \"Zone Air Heat Balance System Convective Heat Gain Rate\", \"Zone Air System Sensible Cooling Energy\", \"Zone Air System Sensible Heating Energy\", \"Zone Air Temperature\", \"Zone Electric Equipment Electric Power\", \"Zone Electric Equipment Total Heating Energy\", \"Zone Electric Equipment Total Heating Rate\", \"Zone Ideal Loads Zone Total Cooling Energy\", \"Zone Ideal Loads Zone Total Cooling Rate\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy\", \"Zone Total Internal Convective Heating Rate\", \"Zone Total Internal Radiant Heating Rate\", \"Zone Total Internal Total Heating Rate\"]",
+               "",
+               "available EnvPeriod: RUN PERIOD 1, available ReportingFrequencies: [\"Daily\", \"Zone Timestep\"]",
+               "available variable names: [\"Electricity:Facility\"]",
+               "variable names: Electricity:Facility",
+               "available key value: [\"\"]",
+               "available variable names: [\"DistrictCooling:Facility\", \"DistrictHeating:Facility\", \"Electric Equipment Electric Power\", \"Electricity:Facility\", \"Schedule Value\", \"Site Diffuse Solar Radiation Rate per Area\", \"Site Direct Solar Radiation Rate per Area\", \"Site Outdoor Air Drybulb Temperature\", \"Site Wind Speed\", \"Zone Air Heat Balance Air Energy Storage Rate\", \"Zone Air Heat Balance Deviation Rate\", \"Zone Air Heat Balance Internal Convective Heat Gain Rate\", \"Zone Air Heat Balance Outdoor Air Transfer Rate\", \"Zone Air Heat Balance Surface Convection Rate\", \"Zone Air Heat Balance System Air Transfer Rate\", \"Zone Air Heat Balance System Convective Heat Gain Rate\", \"Zone Air System Sensible Cooling Energy\", \"Zone Air System Sensible Heating Energy\", \"Zone Air Temperature\", \"Zone Electric Equipment Electric Power\", \"Zone Electric Equipment Total Heating Energy\", \"Zone Electric Equipment Total Heating Rate\", \"Zone Ideal Loads Zone Total Cooling Energy\", \"Zone Ideal Loads Zone Total Cooling Rate\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy\", \"Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy\", \"Zone Total Internal Convective Heating Rate\", \"Zone Total Internal Radiant Heating Rate\", \"Zone Total Internal Total Heating Rate\"]",
+               "variable names: DistrictCooling:Facility",
+               "available key value: [\"\"]",
+               "variable names: DistrictHeating:Facility",
+               "available key value: [\"\"]",
+               "variable names: Electric Equipment Electric Power",
+               "available key value: [\"CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN\", \"CONDITIONED_SPACE_RADIATIONINTERNALGAIN\"]",
+               "variable names: Electricity:Facility",
+               "available key value: [\"\"]",
+               "variable names: Schedule Value",
+               "available key value: [\"CONSTANT AMBIENT TEMEPERATURE\", \"CONVECTIVE_LOAD_SCHEDULE\", \"HVAC_SCHEDULE\", \"MEASUREDPERIOD\", \"MEASURED_CHAMBER_TEMPERATURE\", \"MEASURED_EXTERNAL_TEMPERATURE\", \"MEASURED_TOTAL_HEAT_GAIN\", \"RADIATION_LOAD_SCHEDULE\"]",
+               "variable names: Site Diffuse Solar Radiation Rate per Area",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Direct Solar Radiation Rate per Area",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Outdoor Air Drybulb Temperature",
+               "available key value: [\"Environment\"]",
+               "variable names: Site Wind Speed",
+               "available key value: [\"Environment\"]",
+               "variable names: Zone Air Heat Balance Air Energy Storage Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Deviation Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Internal Convective Heat Gain Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Outdoor Air Transfer Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance Surface Convection Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance System Air Transfer Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Heat Balance System Convective Heat Gain Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air System Sensible Cooling Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air System Sensible Heating Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Air Temperature",
+               "available key value: [\"CONDITIONED_ZONE\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER\"]",
+               "variable names: Zone Electric Equipment Electric Power",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Electric Equipment Total Heating Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Electric Equipment Total Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Ideal Loads Zone Total Cooling Energy",
+               "available key value: [\"CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM\"]",
+               "variable names: Zone Ideal Loads Zone Total Cooling Rate",
+               "available key value: [\"CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM\", \"THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM\"]",
+               "variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Convective Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Radiant Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "variable names: Zone Total Internal Total Heating Rate",
+               "available key value: [\"CONDITIONED_ZONE\"]",
+               "year: true",
+               "seconds: false",
+               "CSV Time format is correct: 01/02/2019 00:01 mm:dd:yy hh:mm",
+               "Begin timeseries parsing",
+               "timezone = -8.0",
+               "timezone = -08:00",
+               "{\"PlenumTemperature\"=>{:key=>\"PLENUMZONE\", :var=>\"Zone Air Temperature\", :index=>0}} ",
+               "Date/Time - Date/Time - false - [\"PlenumTemperature\"]   - true",
+               "Found Time Header: Date/Time",
+               "ZoneTemperature - Date/Time - true - [\"PlenumTemperature\"]   - true",
+               "Saving timeseries_PlenumTemperature.json",
+               "start plotting"
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "diff",
+                  "units" : "",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "simdata",
+                  "units" : "",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "csvdata",
+                  "units" : "",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "cvrmse",
+                  "units" : "",
+                  "value" : 0
+               },
+               {
+                  "name" : "nmbe",
+                  "units" : "",
+                  "value" : 0
+               },
+               {
+                  "name" : "plenum_temperature_nmbe",
+                  "units" : "",
+                  "value" : 0
+               },
+               {
+                  "name" : "plenum_temperature_cvrmse",
+                  "units" : "",
+                  "value" : 0
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20210118T021132Z",
+   "weather_file" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"
+}

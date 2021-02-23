@@ -1,0 +1,42 @@
+{
+  "Input_CSV": {
+    "input_csv_folder_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input",
+    "test_data": "Experiment6_200210_input.csv",
+    "year_input": 2019,
+    "measure_run_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment6_200210_input_out.csv",
+    "measure_meter_csv_path": "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment6_200210_input_metered.csv",
+    "applicable": true
+  },
+  "ModelInputRCoil": {
+    "input_csv_path": "\"data_file.csv\"",
+    "rcoil_coff": 0.75,
+    "zone_capacitance_value": 21.0,
+    "r_value": 0.038,
+    "applicable": true
+  },
+  "ThermalMassInput": {
+    "surface_area": 0.04,
+    "bronze_thermal_mass_layer_thickness": 0.06,
+    "plenum_surface_area": 0.0,
+    "plenum_thickness": 0.0,
+    "applicable": true
+  },
+  "IdealLoadsOptions": {
+    "idealLoadSystem": "Conditioned_Zone",
+    "availability_schedule": "HVAC_SCHEDULE",
+    "mixing_flowrate": 0.0,
+    "applicable": true
+  },
+  "TimeseriesObjectiveFunction": {
+    "diff": 0.0,
+    "simdata": 0.0,
+    "csvdata": 0.0,
+    "cvrmse": 0,
+    "nmbe": 0,
+    "zone_temperature_nmbe": 0.16050492554009135,
+    "zone_temperature_cvrmse": 1.4059650270190924,
+    "applicable": true,
+    "plenum_temperature_nmbe": 0,
+    "plenum_temperature_cvrmse": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "tz": -8,
+    "variables": {
+      "variable": "PlenumTemperature",
+      "variable_display_name": ""
+    }
+  },
+  "data_mtr": [
+
+  ],
+  "data_sim": [
+
+  ]
+}

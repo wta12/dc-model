@@ -1,0 +1,252 @@
+
+ Meters for 15,CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CONDITIONED_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CONDITIONED_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 92,CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CONDITIONED_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CONDITIONED_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 102,CONDITIONED_ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONDITIONED_ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CONDITIONED_ZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 175,CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONDITIONED_ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CONDITIONED_ZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 213,THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 238,THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 252,CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 301,CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 352,THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 353,THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 356,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 405,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 454,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 511,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 536,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 537,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:CONDITIONED_ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CONDITIONED_ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONDITIONED_SPACE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  CONDITIONED_SPACE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CONDITIONED_ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CONDITIONED_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CONDITIONED_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  CONDITIONED_ZONE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  CONDITIONED_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  THERMAL ZONE: STECA_FREEZER_COMPRESSOR_CHAMBER IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

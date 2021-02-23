@@ -1,0 +1,63 @@
+{
+   "created_at" : "20210118T063909Z",
+   "file_paths" : [ "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft" ],
+   "hash" : "860C5707",
+   "measure_paths" : [
+      "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"
+   ],
+   "seed_file" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm",
+   "steps" : [
+      {
+         "arguments" : {
+            "input_csv_folder_path" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input",
+            "test_data" : "Experiment8_200214_input.csv"
+         },
+         "measure_dir_name" : "PAT_Csv_Input"
+      },
+      {
+         "arguments" : {
+            "r_value" : 0.037999999999999999,
+            "rcoil_coff" : 0.75,
+            "zone_capacitance_value" : 21
+         },
+         "measure_dir_name" : "PAT_Model_Input_new"
+      },
+      {
+         "arguments" : {
+            "bronze_thermal_mass_layer_thickness" : 0.01,
+            "plenum_surface_area" : 0.01,
+            "plenum_thickness" : 0.01,
+            "surface_area" : 0.01
+         },
+         "measure_dir_name" : "PAT_ThermalMass"
+      },
+      {
+         "arguments" : {
+            "mixing_flowrate" : 0.0015
+         },
+         "measure_dir_name" : "ideal_loads_options"
+      },
+      {
+         "arguments" : {
+            "plot_name" : "Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function"
+      },
+      {
+         "arguments" : {
+            "csv_var" : "PlenumTemperature",
+            "key_value" : "PLENUMZONE",
+            "plot_name" : "PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function"
+      }
+   ],
+   "updated_at" : "20210118T063909Z",
+   "weather_file" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>thermal_mass_input</name>
+  <uid>8ef13913-d320-4e90-85b4-fd960681767c</uid>
+  <version_id>17ffcc7d-b47b-4bbb-b402-2ce5b11bef84</version_id>
+  <version_modified>20201026T222240Z</version_modified>
+  <xml_checksum>01858CFD</xml_checksum>
+  <class_name>ThermalMassInput</class_name>
+  <display_name>Thermal Mass Input</display_name>
+  <description>Create ThermalMass</description>
+  <modeler_description>create ThermalMass using Bronze properties with thickness and surface area as inpu</modeler_description>
+  <arguments>
+    <argument>
+      <name>surface_area</name>
+      <display_name>surface_area</display_name>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0.05</default_value>
+    </argument>
+    <argument>
+      <name>bronze_thermal_mass_layer_thickness</name>
+      <display_name>bronze_thermal_mass_layer_thickness</display_name>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0.12</default_value>
+    </argument>
+    <argument>
+      <name>plenum_surface_area</name>
+      <display_name>plenum_surface_area</display_name>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0</default_value>
+    </argument>
+    <argument>
+      <name>plenum_thickness</name>
+      <display_name>plenum_thickness</display_name>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0.05</default_value>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>HVAC.Cooling</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Function</name>
+      <value>Measure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Requires EnergyPlus Results</name>
+      <value>false</value>
+      <datatype>boolean</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Uses SketchUp API</name>
+      <value>false</value>
+      <datatype>boolean</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>model_5.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>DBDA8187</checksum>
+    </file>
+    <file>
+      <filename>os_lib_helper_methods.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>5C26809A</checksum>
+    </file>
+    <file>
+      <filename>Experiment5_200205_input_out.csv</filename>
+      <filetype>csv</filetype>
+      <usage_type>test</usage_type>
+      <checksum>FF1CE276</checksum>
+    </file>
+    <file>
+      <filename>Experiment5_200205_input.csv</filename>
+      <filetype>csv</filetype>
+      <usage_type>test</usage_type>
+      <checksum>9A732962</checksum>
+    </file>
+    <file>
+      <filename>measure_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C94230E6</checksum>
+    </file>
+    <file>
+      <filename>05_NewFreezer_Thermal_mass_20191212.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>7AE37C41</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>1.0.0</identifier>
+        <min_compatible>1.8.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>70D6B710</checksum>
+    </file>
+  </files>
+</measure>

@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>ideal_loads_options</name>
+  <uid>ae756607-68ba-4615-87df-a0870beede98</uid>
+  <version_id>1706e17a-14f1-4f1d-a7ab-dfaf70b27b42</version_id>
+  <version_modified>20210130T125754Z</version_modified>
+  <xml_checksum>DAE0171F</xml_checksum>
+  <class_name>IdealLoadsOptions</class_name>
+  <display_name>Ideal Loads Options</display_name>
+  <description>This measure allows the user to edit ideal air loads fields including availability schedules, maximum and minimum supply air temperatures, humidity ratios and flow rates, humidity control, outdoor air requirements, demand controlled ventilation, economizer operation, and heat recovery.</description>
+  <modeler_description>This measure assigns fields to all IdealLoadsAirSystem objects.</modeler_description>
+  <arguments>
+    <argument>
+      <name>idealLoadSystem</name>
+      <display_name>IdealLoadSystem</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>true</model_dependent>
+    </argument>
+    <argument>
+      <name>availability_schedule</name>
+      <display_name>System Availability Schedule:</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>true</model_dependent>
+    </argument>
+    <argument>
+      <name>mixing_flowrate</name>
+      <display_name>mixing_flowrate</display_name>
+      <type>Double</type>
+      <units>m3/s</units>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0.02</default_value>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>HVAC.Whole System</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Automatic Report Generation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Model Articulation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Automatic Report Generation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Model Articulation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Automatic Report Generation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Model Articulation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Automatic Report Generation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Type</name>
+      <value>EnergyPlusMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Model Articulation</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Automatic Report Generation</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>test_v2.4_office_ideal.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>9B5CDE39</checksum>
+    </file>
+    <file>
+      <filename>test_v2.4_office_ideal_humidistats.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>DE79B4E8</checksum>
+    </file>
+    <file>
+      <filename>test_v2.4_office_ideal_nodesignOA.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>95B6B6A5</checksum>
+    </file>
+    <file>
+      <filename>IdealLoadsOptions_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>472DBB99</checksum>
+    </file>
+    <file>
+      <filename>test_v2.4_office_no_ideal.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>EC832037</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>1.4.2</identifier>
+        <min_compatible>1.4.2</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>5369697D</checksum>
+    </file>
+  </files>
+</measure>

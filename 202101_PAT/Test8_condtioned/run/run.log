@@ -1,0 +1,680 @@
+[22:39:11.094034 INFO] openstudio_2 = true
+[22:39:11.094954 INFO] openstudio_dir = /Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/bin
+[22:39:11.094988 INFO] Initializing directory /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run for simulation with options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false}
+[22:39:11.094997 INFO] Starting workflow in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run
+[22:39:11.095002 INFO] Current state: 'queued'
+[22:39:11.095008 INFO] Next state will be: 'initialization'
+[22:39:11.100067 DEBUG] RunInitialization passed the following options {:verify_osw=>true, :debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false}
+[22:39:11.100124 DEBUG] RunInitialization passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft>, :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>}
+[22:39:11.100135 INFO] Calling perform in the RunInitialization class
+[22:39:11.100139 DEBUG] Registering that the workflow has started with the adapter
+[22:39:11.100489 DEBUG] Retrieved the workflow from the adapter
+[22:39:11.100506 DEBUG] osw_dir is /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft
+[22:39:11.104138 DEBUG] The root_dir for the datapoint is /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft
+[22:39:11.104169 DEBUG] Creating generated files directory: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files
+[22:39:11.104367 DEBUG] Initialized runner
+[22:39:11.104377 INFO] Attempting to validate the measure workflow
+[22:39:11.104424 DEBUG] Validating step 0
+[22:39:11.105244 DEBUG] Validated step 0
+[22:39:11.105254 DEBUG] Validating step 1
+[22:39:11.105802 DEBUG] Validated step 1
+[22:39:11.105812 DEBUG] Validating step 2
+[22:39:11.106369 DEBUG] Validated step 2
+[22:39:11.106379 DEBUG] Validating step 3
+[22:39:11.106955 DEBUG] Validated step 3
+[22:39:11.106967 DEBUG] Validating step 4
+[22:39:11.107511 DEBUG] Validated step 4
+[22:39:11.107520 DEBUG] Validating step 5
+[22:39:11.108055 DEBUG] Validated step 5
+[22:39:11.108069 INFO] Validated the measure workflow
+[22:39:11.108073 DEBUG] Finding and loading the seed file
+[22:39:11.108126 INFO] Loading OSM model
+[22:39:11.108137 INFO] Reading in OSM model /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm
+[22:39:11.330154 DEBUG] Getting the initial weather file
+[22:39:11.330185 DEBUG] Searching for weather file #{weather_path}
+[22:39:11.330236 INFO] Current state: 'initialization'
+[22:39:11.330245 INFO] Next state will be: 'os_measures'
+[22:39:11.334604 DEBUG] RunOpenStudioMeasures passed the following options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false}
+[22:39:11.334794 DEBUG] RunOpenStudioMeasures passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}
+[22:39:11.334863 DEBUG] Calling perform in the RunOpenStudioMeasures class
+[22:39:11.371153 INFO] Beginning to execute OpenStudio measures.
+[22:39:11.371187 DEBUG] Finding measures of type ModelMeasure
+[22:39:11.371769 INFO] Found measure Input_CSV of type ModelMeasure. Applying now.
+[22:39:11.371872 DEBUG] Starting apply_measure for PAT_Csv_Input
+[22:39:11.372440 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/000_PAT_Csv_Input
+[22:39:11.372575 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/000_PAT_Csv_Input
+[22:39:11.372608 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/PAT_Csv_Input/measure.rb
+[22:39:11.426842 DEBUG] Iterating over arguments for workflow item 'PAT_Csv_Input'
+[22:39:11.426911 INFO] Setting argument value 'input_csv_folder_path' to '/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input'
+[22:39:11.426947 INFO] Setting argument value 'test_data' to 'Experiment8_200214_input.csv'
+[22:39:11.426989 DEBUG] Calling measure.run for 'PAT_Csv_Input'
+[22:39:11.427454 INFO] Join input exist: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input/Experiment8_200214_input.csv
+[22:39:11.431139 INFO] Input: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input/Experiment8_200214_input.csv
+[22:39:11.491160 INFO] п»їTime ; Total Internal Heat Gain ; External_temp ; Internal_temp_space ; HVAC_Schedule ; ConvectionLoadRatio ; RadiationLoadRatio ; Measure_PeriodShedule ; CoolingPower ; Inlet_water ; Plenum_Temp ; Cooling_Schedule ; Mixing_Schedule
+[22:39:11.494194 INFO] 170 - First_Warmup_row: [["п»їTime", "2019/01/01 00:01"], ["Total Internal Heat Gain", "0.0"], ["External_temp", "22.07"], ["Internal_temp_space", "36.27"], ["HVAC_Schedule", "1.0"], ["ConvectionLoadRatio", "0.0"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "0.0"], ["CoolingPower", "0.0"], ["Inlet_water", "23.86"], ["Plenum_Temp", "44.57"], ["Cooling_Schedule", 0.0], ["Mixing_Schedule", 0.0]]
+[22:39:11.494230 INFO] 171 - End_Warmup_row: [["п»їTime", "2019/01/02 00:00"], ["Total Internal Heat Gain", "0.0"], ["External_temp", "22.07"], ["Internal_temp_space", "36.27"], ["HVAC_Schedule", "1.0"], ["ConvectionLoadRatio", "0.0"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "0.0"], ["CoolingPower", "0.0"], ["Inlet_water", "23.86"], ["Plenum_Temp", "44.57"], ["Cooling_Schedule", 0.0], ["Mixing_Schedule", 0.0]]
+[22:39:11.558743 INFO] 234 - First_Test_row: [["п»їTime", "2019/01/02 00:01"], ["Total Internal Heat Gain", "26.35"], ["External_temp", "22.07"], ["Internal_temp_space", "36.27"], ["HVAC_Schedule", "1.0"], ["ConvectionLoadRatio", "0.2635"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "1.0"], ["CoolingPower", "0"], ["Inlet_water", "23.86"], ["Plenum_Temp", "44.57"], ["Cooling_Schedule", "0.0"], ["Mixing_Schedule", "0.0"]]
+[22:39:11.558787 INFO] 235 - Second_Test_row: [["п»їTime", "2019/01/02 00:02"], ["Total Internal Heat Gain", "26.43"], ["External_temp", "22.13"], ["Internal_temp_space", "36.43"], ["HVAC_Schedule", "0.0"], ["ConvectionLoadRatio", "0.2643"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "1.0"], ["CoolingPower", "0"], ["Inlet_water", "23.79"], ["Plenum_Temp", "44.57"], ["Cooling_Schedule", "0.0"], ["Mixing_Schedule", "1.0"]]
+[22:39:11.558835 INFO] 236 - End_Cooling_row: [["п»їTime", "2019/01/03 22:23"], ["Total Internal Heat Gain", "26.45"], ["External_temp", "21.8"], ["Internal_temp_space", "34.14"], ["HVAC_Schedule", "0.0"], ["ConvectionLoadRatio", "0.2645"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "1.0"], ["CoolingPower", "32.86100245"], ["Inlet_water", "23.93"], ["Plenum_Temp", "43.92"], ["Cooling_Schedule", "1.0"], ["Mixing_Schedule", "1.0"]]
+[22:39:11.558860 INFO] 237 - End_Test_row: [["п»їTime", "2019/01/03 23:12"], ["Total Internal Heat Gain", "26.39"], ["External_temp", "21.31"], ["Internal_temp_space", "34.17"], ["HVAC_Schedule", "0.0"], ["ConvectionLoadRatio", "0.2639"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "1.0"], ["CoolingPower", "34.88219845"], ["Inlet_water", "23.95"], ["Plenum_Temp", "43.83"], ["Cooling_Schedule", "1.0"], ["Mixing_Schedule", "1.0"]]
+[22:39:13.286924 INFO] 253 - First_Remain_row: [["п»їTime", "2019/01/03 23:13"], ["Total Internal Heat Gain", "0.0"], ["External_temp", "21.31"], ["Internal_temp_space", "34.17"], ["HVAC_Schedule", "1.0"], ["ConvectionLoadRatio", "0.0"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "0.0"], ["CoolingPower", "34.88219845"], ["Inlet_water", "23.95"], ["Plenum_Temp", "43.83"], ["Cooling_Schedule", 0.0], ["Mixing_Schedule", 0.0]]
+[22:39:13.286971 INFO] 256 - End_Remain_row: [["п»їTime", "2020/01/01 00:00"], ["Total Internal Heat Gain", "0.0"], ["External_temp", "21.31"], ["Internal_temp_space", "34.17"], ["HVAC_Schedule", "1.0"], ["ConvectionLoadRatio", "0.0"], ["RadiationLoadRatio", "0.0"], ["Measure_PeriodShedule", "0.0"], ["CoolingPower", "34.88219845"], ["Inlet_water", "23.95"], ["Plenum_Temp", "43.83"], ["Cooling_Schedule", 0.0], ["Mixing_Schedule", 0.0]]
+[22:39:18.869863 INFO] RawInput_period: 2020/02/12 16:46 - 2020/02/14 15:57
+[22:39:18.869882 INFO] Metered_period: 01/02/2019 00:01 - 01/03/2019 23:12
+[22:39:18.869898 INFO] Output: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv
+[22:39:18.869981 DEBUG] Finished measure.run for 'PAT_Csv_Input'
+[22:39:19.125921 DEBUG] Running of measure 'PAT_Csv_Input' completed. Post-processing measure output
+[22:39:19.126162 INFO] Moving to the next workflow step.
+[22:39:19.126863 INFO] Found measure ModelInputRCoil of type ModelMeasure. Applying now.
+[22:39:19.126972 DEBUG] Starting apply_measure for PAT_Model_Input_new
+[22:39:19.127755 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/001_PAT_Model_Input_new
+[22:39:19.127926 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/001_PAT_Model_Input_new
+[22:39:19.127968 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/PAT_Model_Input_new/measure.rb
+[22:39:19.199454 DEBUG] Iterating over arguments for workflow item 'PAT_Model_Input_new'
+[22:39:19.199491 INFO] Setting argument value 'r_value' to '0.038'
+[22:39:19.199515 INFO] Setting argument value 'rcoil_coff' to '0.75'
+[22:39:19.199533 INFO] Setting argument value 'zone_capacitance_value' to '21'
+[22:39:19.199555 DEBUG] Calling measure.run for 'PAT_Model_Input_new'
+[22:39:19.204262 INFO] Input: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv
+[22:39:19.204287 INFO] 
+[22:39:19.227744 INFO] Clean up model done
+[22:39:19.235362 INFO] Following objects created:
+      OS:ElectricEquipment:Definition,
+  {2070437f-cd7e-49e1-8466-dd159038c014}, !- Handle
+  Convective_Internal_gain_100.0W,        !- Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  100,                                    !- Design Level {W}
+  ,                                       !- Watts per Space Floor Area {W/m2}
+  ;                                       !- Watts per Person {W/person}
+
+,
+      OS:ElectricEquipment:Definition,
+  {47e64300-51fd-4acf-9ad8-8fb7040dd3f7}, !- Handle
+  Radiative_Internal_gain_100.0W,         !- Name
+  EquipmentLevel,                         !- Design Level Calculation Method
+  100,                                    !- Design Level {W}
+  ,                                       !- Watts per Space Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  1;                                      !- Fraction Radiant
+
+
+[22:39:19.235776 INFO] OS:Schedule:File,
+  {5e78d7a8-24f5-4da5-8489-4188d66ac3e3}, !- Handle
+  CONVECTIVE_LOAD_SCHEDULE,               !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  {7aa3cdf6-7517-460d-a117-c6800f0f2047}, !- External File Name
+  6,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  ,                                       !- Column Separator
+  ,                                       !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.244085 DEBUG] Finished measure.run for 'PAT_Model_Input_new'
+[22:39:19.281826 DEBUG] Running of measure 'PAT_Model_Input_new' completed. Post-processing measure output
+[22:39:19.282026 INFO] Moving to the next workflow step.
+[22:39:19.282848 INFO] Found measure ThermalMassInput of type ModelMeasure. Applying now.
+[22:39:19.282977 DEBUG] Starting apply_measure for PAT_ThermalMass
+[22:39:19.283772 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/002_PAT_ThermalMass
+[22:39:19.283950 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/002_PAT_ThermalMass
+[22:39:19.283999 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/PAT_ThermalMass/measure.rb
+[22:39:19.285887 DEBUG] Iterating over arguments for workflow item 'PAT_ThermalMass'
+[22:39:19.285930 INFO] Setting argument value 'bronze_thermal_mass_layer_thickness' to '0.01'
+[22:39:19.285965 INFO] Setting argument value 'plenum_surface_area' to '0.01'
+[22:39:19.285991 INFO] Setting argument value 'plenum_thickness' to '0.01'
+[22:39:19.286016 INFO] Setting argument value 'surface_area' to '0.01'
+[22:39:19.286048 DEBUG] Calling measure.run for 'PAT_ThermalMass'
+[22:39:19.293726 INFO] Input - surface_area: 0.01
+[22:39:19.293742 INFO] Input - bronze_thermal_mass_layer_thickness: 0.01
+[22:39:19.296392 DEBUG] Finished measure.run for 'PAT_ThermalMass'
+[22:39:19.326501 DEBUG] Running of measure 'PAT_ThermalMass' completed. Post-processing measure output
+[22:39:19.326701 INFO] Moving to the next workflow step.
+[22:39:19.327568 DEBUG] Passing measure IdealLoadsOptions of type ModelMeasure
+[22:39:19.328344 DEBUG] Passing measure TimeseriesObjectiveFunction of type ModelMeasure
+[22:39:19.329103 DEBUG] Passing measure TimeseriesObjectiveFunction of type ModelMeasure
+[22:39:19.329117 INFO] Finished applying OpenStudio measures.
+[22:39:19.329124 DEBUG] Communicating measure output attributes to the output adapter
+[22:39:19.348558 DEBUG] Saved model as /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/in.osm
+[22:39:19.348581 INFO] Current state: 'os_measures'
+[22:39:19.348591 INFO] Next state will be: 'translator'
+[22:39:19.354930 DEBUG] RunTranslation passed the following options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:39:19.355125 DEBUG] RunTranslation passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}}, :model_idf=>nil, :sql=>nil}
+[22:39:19.355148 DEBUG] Calling perform in the RunTranslation class
+[22:39:19.355214 INFO] Weather file for EnergyPlus simulation is /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw
+[22:39:19.357047 INFO] Beginning the translation to IDF
+[22:39:19.357061 INFO] Translate object to EnergyPlus IDF in preparation for EnergyPlus
+[22:39:19.392418 INFO] Translate object to EnergyPlus IDF took 0.0353398323059082
+[22:39:19.392464 INFO] Successfully translated to IDF
+[22:39:19.397498 DEBUG] Saved IDF as /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/in.idf
+[22:39:19.397515 INFO] Current state: 'translator'
+[22:39:19.397523 INFO] Next state will be: 'ep_measures'
+[22:39:19.402416 DEBUG] RunEnergyPlusMeasures passed the following options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:39:19.402575 DEBUG] RunEnergyPlusMeasures passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/in.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}}, :model_idf=>#<OpenStudio::Workspace:0x00007fcc1c291f40 @__swigtype__="_p_openstudio__Workspace">, :sql=>nil}
+[22:39:19.402586 DEBUG] Calling perform in the RunEnergyPlusMeasures class
+[22:39:19.402591 INFO] Beginning to execute EnergyPlus measures.
+[22:39:19.402609 DEBUG] Finding measures of type EnergyPlusMeasure
+[22:39:19.403178 DEBUG] Passing measure Input_CSV of type EnergyPlusMeasure
+[22:39:19.403838 DEBUG] Passing measure ModelInputRCoil of type EnergyPlusMeasure
+[22:39:19.404457 DEBUG] Passing measure ThermalMassInput of type EnergyPlusMeasure
+[22:39:19.405196 INFO] Found measure IdealLoadsOptions of type EnergyPlusMeasure. Applying now.
+[22:39:19.405293 DEBUG] Starting apply_measure for ideal_loads_options
+[22:39:19.405850 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/003_ideal_loads_options
+[22:39:19.405972 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/003_ideal_loads_options
+[22:39:19.406005 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/ideal_loads_options/measure.rb
+[22:39:19.407452 DEBUG] Iterating over arguments for workflow item 'ideal_loads_options'
+[22:39:19.407483 INFO] Setting argument value 'mixing_flowrate' to '0.0015'
+[22:39:19.407528 DEBUG] Calling measure.run for 'ideal_loads_options'
+[22:39:19.413628 INFO] TEst: true
+[22:39:19.413641 INFO] System Name: PlenumZone
+[22:39:19.413690 INFO] System Name: ConditionedZone
+[22:39:19.413731 INFO] System Name: Compressor
+[22:39:19.414593 INFO] ZoneCrossMixing,
+  Conditioned_SourcePlenum,               !- Name
+  ConditionedZone,                        ! Zone Name
+  Mixing_Schedule,                        !- Schedule Name
+  Flow/Zone,                              !- Design Flow Rate Calculation Method
+  0.0015,                                 !- Design Flow Rate {m3/s}
+  ,                                       !- Flow Rate per Zone Floor Area {m3/s-m2}
+  ,                                       !- Flow Rate per Person {m3/s-person}
+  10,                                     !- Air Changes per Hour {1/hr}
+  PlenumZone,                             ! Source Zone Name
+  0;                                      ! Delta temp
+
+
+[22:39:19.420875 INFO] 
+[22:39:19.420952 INFO] ScheduleFile
+Schedule:File,
+  RADIATION_LOAD_SCHEDULE,                !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  7,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421033 INFO] ScheduleFile
+Schedule:File,
+  Mixing_Schedule,                        !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  13,                                     !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421087 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_WATER_INLET_TEMPERATURE,       !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  10,                                     !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421136 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_COOLING_POWER,                 !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  9,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421186 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_TOTAL_HEAT_GAIN,               !- Name
+  HeatGainSchedule,                       !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  2,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421234 INFO] ScheduleFile
+Schedule:File,
+  HVAC_SCHEDULE,                          !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  5,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421284 INFO] ScheduleFile
+Schedule:File,
+  Cooling_schedule_file,                  !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  12,                                     !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421333 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_PLENUM_TEMPERATURE,            !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  11,                                     !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421383 INFO] ScheduleFile
+Schedule:File,
+  MeasuredPeriod,                         !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  8,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421432 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_CHAMBER_TEMPERATURE,           !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  4,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421480 INFO] ScheduleFile
+Schedule:File,
+  CONVECTIVE_LOAD_SCHEDULE,               !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  6,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421529 INFO] ScheduleFile
+Schedule:File,
+  MEASURED_EXTERNAL_TEMPERATURE,          !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/generated_files/Experiment8_200214_input_out.csv, !- File Name
+  3,                                      !- Column Number
+  1,                                      !- Rows to Skip at Top
+  ,                                       !- Number of Hours of Data
+  Comma,                                  !- Column Separator
+  No,                                     !- Interpolate to Timestep
+  1;                                      !- Minutes per Item
+
+
+[22:39:19.421540 INFO] ArgumentValue: 
+[22:39:19.421634 DEBUG] Finished measure.run for 'ideal_loads_options'
+[22:39:19.445601 DEBUG] Running of measure 'ideal_loads_options' completed. Post-processing measure output
+[22:39:19.445708 INFO] Moving to the next workflow step.
+[22:39:19.446541 DEBUG] Passing measure TimeseriesObjectiveFunction of type EnergyPlusMeasure
+[22:39:19.447322 DEBUG] Passing measure TimeseriesObjectiveFunction of type EnergyPlusMeasure
+[22:39:19.447337 INFO] Finished applying EnergyPlus measures.
+[22:39:19.447344 DEBUG] Communicating measure output attributes to the output adapter
+[22:39:19.457876 DEBUG] Saved IDF as /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/in.idf
+[22:39:19.457937 INFO] Current state: 'ep_measures'
+[22:39:19.457950 INFO] Next state will be: 'preprocess'
+[22:39:19.463920 DEBUG] RunPreprocess passed the following options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:39:19.464124 DEBUG] RunPreprocess passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/in.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}, :IdealLoadsOptions=>{"idealLoadSystem"=>"ConditionedZone", "availability_schedule"=>"HVAC_SCHEDULE", "mixing_flowrate"=>0.0015, :applicable=>true}}, :model_idf=>#<OpenStudio::Workspace:0x00007fcc1c291f40 @__swigtype__="_p_openstudio__Workspace">, :sql=>nil}
+[22:39:19.464142 DEBUG] Calling perform in the RunPreprocess class
+[22:39:19.470744 INFO] Beginning to collect output requests from Reporting measures.
+[22:39:19.470780 DEBUG] Finding measures of type ReportingMeasure
+[22:39:19.471479 DEBUG] Passing measure Input_CSV of type ReportingMeasure
+[22:39:19.472122 DEBUG] Passing measure ModelInputRCoil of type ReportingMeasure
+[22:39:19.472815 DEBUG] Passing measure ThermalMassInput of type ReportingMeasure
+[22:39:19.473528 DEBUG] Passing measure IdealLoadsOptions of type ReportingMeasure
+[22:39:19.474166 INFO] Found measure TimeseriesObjectiveFunction of type ReportingMeasure. Collecting EnergyPlus Output Requests now.
+[22:39:19.474279 DEBUG] Starting apply_measure for TimeSeries Objective Function
+[22:39:19.474935 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:39:19.475078 DEBUG] energyPlusOutputRequests running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:39:19.475119 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/TimeSeries Objective Function/measure.rb
+[22:39:19.628265 DEBUG] Iterating over arguments for workflow item 'TimeSeries Objective Function'
+[22:39:19.628305 INFO] Setting argument value 'plot_name' to 'Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015'
+[22:39:19.628330 INFO] Setting argument value 'reporting_frequency' to 'Timestep'
+[22:39:19.628356 INFO] Setting argument value 'seconds' to 'false'
+[22:39:19.628376 INFO] Setting argument value 'year' to 'true'
+[22:39:19.628442 DEBUG] Calling measure.energyPlusOutputRequests for 'TimeSeries Objective Function'
+[22:39:19.628607 DEBUG] Finished measure.energyPlusOutputRequests for 'TimeSeries Objective Function', 0 output requests added
+[22:39:19.651909 INFO] Moving to the next workflow step.
+[22:39:19.652767 INFO] Found measure TimeseriesObjectiveFunction of type ReportingMeasure. Collecting EnergyPlus Output Requests now.
+[22:39:19.652901 DEBUG] Starting apply_measure for TimeSeries Objective Function
+[22:39:19.653770 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:39:19.653959 DEBUG] energyPlusOutputRequests running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:39:19.654012 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/TimeSeries Objective Function/measure.rb
+[22:39:19.766424 DEBUG] Iterating over arguments for workflow item 'TimeSeries Objective Function'
+[22:39:19.766462 INFO] Setting argument value 'csv_var' to 'PlenumTemperature'
+[22:39:19.766483 INFO] Setting argument value 'key_value' to 'PLENUMZONE'
+[22:39:19.766501 INFO] Setting argument value 'plot_name' to 'PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015'
+[22:39:19.766518 INFO] Setting argument value 'reporting_frequency' to 'Timestep'
+[22:39:19.766535 INFO] Setting argument value 'seconds' to 'false'
+[22:39:19.766553 INFO] Setting argument value 'year' to 'true'
+[22:39:19.766613 DEBUG] Calling measure.energyPlusOutputRequests for 'TimeSeries Objective Function'
+[22:39:19.766744 DEBUG] Finished measure.energyPlusOutputRequests for 'TimeSeries Objective Function', 0 output requests added
+[22:39:19.786274 INFO] Moving to the next workflow step.
+[22:39:19.786299 INFO] Finished collect output requests from Reporting measures.
+[22:39:19.786312 INFO] Running EnergyPlus Preprocess
+[22:39:19.789086 INFO] Finished EnergyPlus Preprocess
+[22:39:19.789100 INFO] Finished preprocess job for EnergyPlus simulation
+[22:39:19.805685 DEBUG] Saved IDF as /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/in.idf
+[22:39:19.805710 INFO] Current state: 'preprocess'
+[22:39:19.805722 INFO] Next state will be: 'simulation'
+[22:39:19.811968 DEBUG] RunEnergyPlus passed the following options {:debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:39:19.812171 DEBUG] RunEnergyPlus passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/in.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}, :IdealLoadsOptions=>{"idealLoadSystem"=>"ConditionedZone", "availability_schedule"=>"HVAC_SCHEDULE", "mixing_flowrate"=>0.0015, :applicable=>true}}, :model_idf=>#<OpenStudio::Workspace:0x00007fcc1c291f40 @__swigtype__="_p_openstudio__Workspace">, :sql=>nil}
+[22:39:19.812194 DEBUG] Calling perform in the RunEnergyPlus class
+[22:39:19.812203 INFO] Starting the EnergyPlus simulation
+[22:39:19.813945 INFO] EnergyPlus path is /Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus
+[22:39:19.813959 INFO] Copying EnergyPlus files to run directory: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run
+[22:39:19.813966 INFO] EnergyPlus path is /Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus
+[22:39:19.820259 INFO] EnergyPlus executable path is /Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus/energyplus
+[22:39:19.820285 INFO] ExpandObjects executable path is /Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus/ExpandObjects
+[22:39:19.820384 INFO] Starting simulation in run directory: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run
+[22:39:19.820408 INFO] Running command '"/Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus/ExpandObjects"'
+[22:39:19.869464 INFO] Running command '"/Users/kcu/Desktop/App/Run/OpenStudio/OpenStudio_3_0_0/EnergyPlus/energyplus" 2>&1'
+[22:40:36.385801 INFO] EnergyPlus returned 'pid 43750 exit 0'
+[22:40:36.389047 INFO] EnergyPlus finished with 15 warnings and 0 severe errors
+[22:40:36.389065 INFO] Ensuring 'clean' directory
+[22:40:36.389083 INFO] Removing any copied EnergyPlus files
+[22:40:36.389392 INFO] EnergyPlus Completed
+[22:40:36.389408 INFO] Completed the EnergyPlus simulation
+[22:40:36.389463 INFO] Current state: 'simulation'
+[22:40:36.389481 INFO] Next state will be: 'reporting_measures'
+[22:40:36.439593 DEBUG] RunReportingMeasures passed the following options {:load_simulation_osm=>false, :load_simulation_idf=>false, :load_simulation_sql=>false, :debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :cleanup=>true, :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:40:36.439779 DEBUG] RunReportingMeasures passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/in.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}, :IdealLoadsOptions=>{"idealLoadSystem"=>"ConditionedZone", "availability_schedule"=>"HVAC_SCHEDULE", "mixing_flowrate"=>0.0015, :applicable=>true}}, :model_idf=>#<OpenStudio::Workspace:0x00007fcc1c291f40 @__swigtype__="_p_openstudio__Workspace">, :sql=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/eplusout.sql"}
+[22:40:36.439797 DEBUG] Calling perform in the RunReportingMeasures class
+[22:40:36.439801 DEBUG] RunPostProcess Retrieving datapoint and problem
+[22:40:36.439813 INFO] Beginning to execute Reporting measures.
+[22:40:36.439850 DEBUG] Finding measures of type ReportingMeasure
+[22:40:36.440507 DEBUG] Passing measure Input_CSV of type ReportingMeasure
+[22:40:36.441063 DEBUG] Passing measure ModelInputRCoil of type ReportingMeasure
+[22:40:36.441617 DEBUG] Passing measure ThermalMassInput of type ReportingMeasure
+[22:40:36.442164 DEBUG] Passing measure IdealLoadsOptions of type ReportingMeasure
+[22:40:36.442678 INFO] Found measure TimeseriesObjectiveFunction of type ReportingMeasure. Applying now.
+[22:40:36.442865 DEBUG] Starting apply_measure for TimeSeries Objective Function
+[22:40:36.443403 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:40:36.443505 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function
+[22:40:36.443537 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/TimeSeries Objective Function/measure.rb
+[22:40:36.547732 DEBUG] Iterating over arguments for workflow item 'TimeSeries Objective Function'
+[22:40:36.547776 INFO] Setting argument value 'plot_name' to 'Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015'
+[22:40:36.548962 INFO] Setting argument value 'reporting_frequency' to 'Timestep'
+[22:40:36.549133 INFO] Setting argument value 'seconds' to 'false'
+[22:40:36.549206 INFO] Setting argument value 'year' to 'true'
+[22:40:36.549393 DEBUG] Calling measure.run for 'TimeSeries Objective Function'
+[22:40:37.053689 INFO] csv_name: ../../../lib/Experiment2_200114_input_out.csv - csv_time_header Date/Time, csv_var - ZoneTemperature, sql_key - ConditionedZone
+[22:40:37.062820 INFO] csv_name: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv
+[22:40:37.074837 INFO] environment_period: RUN PERIOD 1
+[22:40:37.074858 INFO] environment_periods: ["RUN PERIOD 1"]
+[22:40:37.074875 INFO] map: {"ZoneTemperature"=>{:key=>"ConditionedZone", :var=>"Zone Air Temperature", :index=>0}}
+[22:40:37.074881 INFO] final_avail: true
+[22:40:37.074950 INFO] available timeseries: ["DistrictCooling:Facility", "DistrictHeating:Facility", "Electric Equipment Electric Power", "Electricity:Facility", "Schedule Value", "Site Diffuse Solar Radiation Rate per Area", "Site Direct Solar Radiation Rate per Area", "Site Outdoor Air Drybulb Temperature", "Site Wind Speed", "Zone Air Heat Balance Air Energy Storage Rate", "Zone Air Heat Balance Deviation Rate", "Zone Air Heat Balance Internal Convective Heat Gain Rate", "Zone Air Heat Balance Outdoor Air Transfer Rate", "Zone Air Heat Balance Surface Convection Rate", "Zone Air Heat Balance System Air Transfer Rate", "Zone Air Heat Balance System Convective Heat Gain Rate", "Zone Air System Sensible Cooling Energy", "Zone Air System Sensible Heating Energy", "Zone Air Temperature", "Zone Electric Equipment Electric Power", "Zone Electric Equipment Total Heating Energy", "Zone Electric Equipment Total Heating Rate", "Zone Ideal Loads Zone Total Cooling Energy", "Zone Ideal Loads Zone Total Cooling Rate", "Zone Mixing Current Density Volume Flow Rate", "Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy", "Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy", "Zone Total Internal Convective Heating Rate", "Zone Total Internal Radiant Heating Rate", "Zone Total Internal Total Heating Rate"]
+[22:40:37.074957 INFO] 
+[22:40:37.074985 INFO] available EnvPeriod: RUN PERIOD 1, available ReportingFrequencies: ["Daily", "Zone Timestep"]
+[22:40:37.074998 INFO] available variable names: ["Electricity:Facility"]
+[22:40:37.075008 INFO] variable names: Electricity:Facility
+[22:40:37.075015 INFO] available key value: [""]
+[22:40:37.075063 INFO] available variable names: ["DistrictCooling:Facility", "DistrictHeating:Facility", "Electric Equipment Electric Power", "Electricity:Facility", "Schedule Value", "Site Diffuse Solar Radiation Rate per Area", "Site Direct Solar Radiation Rate per Area", "Site Outdoor Air Drybulb Temperature", "Site Wind Speed", "Zone Air Heat Balance Air Energy Storage Rate", "Zone Air Heat Balance Deviation Rate", "Zone Air Heat Balance Internal Convective Heat Gain Rate", "Zone Air Heat Balance Outdoor Air Transfer Rate", "Zone Air Heat Balance Surface Convection Rate", "Zone Air Heat Balance System Air Transfer Rate", "Zone Air Heat Balance System Convective Heat Gain Rate", "Zone Air System Sensible Cooling Energy", "Zone Air System Sensible Heating Energy", "Zone Air Temperature", "Zone Electric Equipment Electric Power", "Zone Electric Equipment Total Heating Energy", "Zone Electric Equipment Total Heating Rate", "Zone Ideal Loads Zone Total Cooling Energy", "Zone Ideal Loads Zone Total Cooling Rate", "Zone Mixing Current Density Volume Flow Rate", "Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy", "Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy", "Zone Total Internal Convective Heating Rate", "Zone Total Internal Radiant Heating Rate", "Zone Total Internal Total Heating Rate"]
+[22:40:37.075076 INFO] variable names: DistrictCooling:Facility
+[22:40:37.075082 INFO] available key value: [""]
+[22:40:37.075092 INFO] variable names: DistrictHeating:Facility
+[22:40:37.075098 INFO] available key value: [""]
+[22:40:37.075109 INFO] variable names: Electric Equipment Electric Power
+[22:40:37.075117 INFO] available key value: ["PLENUMZONE_CONVECTIVEINTERNALGAIN", "PLENUMZONE_RADIATIONINTERNALGAIN"]
+[22:40:37.075127 INFO] variable names: Electricity:Facility
+[22:40:37.075133 INFO] available key value: [""]
+[22:40:37.075148 INFO] variable names: Schedule Value
+[22:40:37.075162 INFO] available key value: ["CONVECTIVE_LOAD_SCHEDULE", "COOLING_SCHEDULE_FILE", "HVAC_SCHEDULE", "MEASUREDPERIOD", "MEASURED_CHAMBER_TEMPERATURE", "MEASURED_COOLING_POWER", "MEASURED_EXTERNAL_TEMPERATURE", "MEASURED_PLENUM_TEMPERATURE", "MEASURED_TOTAL_HEAT_GAIN", "MEASURED_WATER_INLET_TEMPERATURE", "MIXING_SCHEDULE", "RADIATION_LOAD_SCHEDULE"]
+[22:40:37.075173 INFO] variable names: Site Diffuse Solar Radiation Rate per Area
+[22:40:37.075179 INFO] available key value: ["Environment"]
+[22:40:37.075188 INFO] variable names: Site Direct Solar Radiation Rate per Area
+[22:40:37.075196 INFO] available key value: ["Environment"]
+[22:40:37.075205 INFO] variable names: Site Outdoor Air Drybulb Temperature
+[22:40:37.075211 INFO] available key value: ["Environment"]
+[22:40:37.075220 INFO] variable names: Site Wind Speed
+[22:40:37.075228 INFO] available key value: ["Environment"]
+[22:40:37.075238 INFO] variable names: Zone Air Heat Balance Air Energy Storage Rate
+[22:40:37.075244 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075254 INFO] variable names: Zone Air Heat Balance Deviation Rate
+[22:40:37.075260 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075268 INFO] variable names: Zone Air Heat Balance Internal Convective Heat Gain Rate
+[22:40:37.075274 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075283 INFO] variable names: Zone Air Heat Balance Outdoor Air Transfer Rate
+[22:40:37.075290 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075299 INFO] variable names: Zone Air Heat Balance Surface Convection Rate
+[22:40:37.075306 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075314 INFO] variable names: Zone Air Heat Balance System Air Transfer Rate
+[22:40:37.075320 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075330 INFO] variable names: Zone Air Heat Balance System Convective Heat Gain Rate
+[22:40:37.075336 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075344 INFO] variable names: Zone Air System Sensible Cooling Energy
+[22:40:37.075351 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075361 INFO] variable names: Zone Air System Sensible Heating Energy
+[22:40:37.075367 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075376 INFO] variable names: Zone Air Temperature
+[22:40:37.075382 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075391 INFO] variable names: Zone Electric Equipment Electric Power
+[22:40:37.075397 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075406 INFO] variable names: Zone Electric Equipment Total Heating Energy
+[22:40:37.075413 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075422 INFO] variable names: Zone Electric Equipment Total Heating Rate
+[22:40:37.075429 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075440 INFO] variable names: Zone Ideal Loads Zone Total Cooling Energy
+[22:40:37.075447 INFO] available key value: ["COMPRESSOR IDEAL LOADS AIR SYSTEM", "CONDITIONEDZONE IDEAL LOADS AIR SYSTEM", "PLENUMZONE IDEAL LOADS AIR SYSTEM"]
+[22:40:37.075459 INFO] variable names: Zone Ideal Loads Zone Total Cooling Rate
+[22:40:37.075466 INFO] available key value: ["COMPRESSOR IDEAL LOADS AIR SYSTEM", "CONDITIONEDZONE IDEAL LOADS AIR SYSTEM", "PLENUMZONE IDEAL LOADS AIR SYSTEM"]
+[22:40:37.075477 INFO] variable names: Zone Mixing Current Density Volume Flow Rate
+[22:40:37.075483 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075492 INFO] variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy
+[22:40:37.075499 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075539 INFO] variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy
+[22:40:37.075547 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075556 INFO] variable names: Zone Total Internal Convective Heating Rate
+[22:40:37.075570 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075582 INFO] variable names: Zone Total Internal Radiant Heating Rate
+[22:40:37.075588 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075597 INFO] variable names: Zone Total Internal Total Heating Rate
+[22:40:37.075603 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.075609 INFO] year: true
+[22:40:37.075614 INFO] seconds: false
+[22:40:37.075627 INFO] CSV Time format is correct: 01/02/2019 00:01 mm:dd:yy hh:mm
+[22:40:37.075633 INFO] Begin timeseries parsing
+[22:40:37.075708 INFO] timezone = -8.0
+[22:40:37.075716 INFO] timezone = -08:00
+[22:40:37.075728 INFO] {"ZoneTemperature"=>{:key=>"ConditionedZone", :var=>"Zone Air Temperature", :index=>0}} 
+[22:40:37.075737 INFO] Date/Time - Date/Time - false - ["ZoneTemperature"]   - true
+[22:40:37.075745 INFO] Found Time Header: Date/Time
+[22:40:37.075753 INFO] ZoneTemperature - Date/Time - true - ["ZoneTemperature"]   - false
+[22:40:37.075758 INFO] hdr is: ZoneTemperature
+[22:40:37.075763 INFO] csv_var is: ZoneTemperature
+[22:40:37.075768 INFO] var: Zone Air Temperature
+[22:40:37.075773 INFO] key: ConditionedZone
+[22:40:37.075781 INFO] ["RUN PERIOD 1"]
+[22:40:37.075787 INFO] sqlcall: RUN PERIOD 1,Timestep,Zone Air Temperature,ConditionedZone
+[22:40:37.190089 INFO] ySum - 101983.95999999985 - n -> 2292
+[22:40:37.190125 INFO] PlenumTemperature - Date/Time - true - ["ZoneTemperature"]   - true
+[22:40:37.190135 INFO] Saving timeseries_ZoneTemperature.json
+[22:40:37.200116 INFO] start plotting
+[22:40:37.209068 DEBUG] Finished measure.run for 'TimeSeries Objective Function'
+[22:40:37.252135 DEBUG] Running of measure 'TimeSeries Objective Function' completed. Post-processing measure output
+[22:40:37.252281 INFO] Moving to the next workflow step.
+[22:40:37.252998 INFO] Found measure TimeseriesObjectiveFunction of type ReportingMeasure. Applying now.
+[22:40:37.253191 DEBUG] Starting apply_measure for TimeSeries Objective Function
+[22:40:37.253888 DEBUG] Creating run directory for measure in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function
+[22:40:37.254059 DEBUG] Apply measure running in /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function
+[22:40:37.254101 DEBUG] Loading Measure from /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development/TimeSeries Objective Function/measure.rb
+[22:40:37.362155 DEBUG] Iterating over arguments for workflow item 'TimeSeries Objective Function'
+[22:40:37.362201 INFO] Setting argument value 'csv_var' to 'PlenumTemperature'
+[22:40:37.362226 INFO] Setting argument value 'key_value' to 'PLENUMZONE'
+[22:40:37.362245 INFO] Setting argument value 'plot_name' to 'PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015'
+[22:40:37.362264 INFO] Setting argument value 'reporting_frequency' to 'Timestep'
+[22:40:37.362281 INFO] Setting argument value 'seconds' to 'false'
+[22:40:37.362303 INFO] Setting argument value 'year' to 'true'
+[22:40:37.362370 DEBUG] Calling measure.run for 'TimeSeries Objective Function'
+[22:40:37.363765 INFO] csv_name: ../../../lib/Experiment2_200114_input_out.csv - csv_time_header Date/Time, csv_var - PlenumTemperature, sql_key - PLENUMZONE
+[22:40:37.373744 INFO] csv_name: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv
+[22:40:37.382249 INFO] environment_period: RUN PERIOD 1
+[22:40:37.382275 INFO] environment_periods: ["RUN PERIOD 1"]
+[22:40:37.382292 INFO] map: {"PlenumTemperature"=>{:key=>"PLENUMZONE", :var=>"Zone Air Temperature", :index=>0}}
+[22:40:37.382298 INFO] final_avail: true
+[22:40:37.382347 INFO] available timeseries: ["DistrictCooling:Facility", "DistrictHeating:Facility", "Electric Equipment Electric Power", "Electricity:Facility", "Schedule Value", "Site Diffuse Solar Radiation Rate per Area", "Site Direct Solar Radiation Rate per Area", "Site Outdoor Air Drybulb Temperature", "Site Wind Speed", "Zone Air Heat Balance Air Energy Storage Rate", "Zone Air Heat Balance Deviation Rate", "Zone Air Heat Balance Internal Convective Heat Gain Rate", "Zone Air Heat Balance Outdoor Air Transfer Rate", "Zone Air Heat Balance Surface Convection Rate", "Zone Air Heat Balance System Air Transfer Rate", "Zone Air Heat Balance System Convective Heat Gain Rate", "Zone Air System Sensible Cooling Energy", "Zone Air System Sensible Heating Energy", "Zone Air Temperature", "Zone Electric Equipment Electric Power", "Zone Electric Equipment Total Heating Energy", "Zone Electric Equipment Total Heating Rate", "Zone Ideal Loads Zone Total Cooling Energy", "Zone Ideal Loads Zone Total Cooling Rate", "Zone Mixing Current Density Volume Flow Rate", "Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy", "Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy", "Zone Total Internal Convective Heating Rate", "Zone Total Internal Radiant Heating Rate", "Zone Total Internal Total Heating Rate"]
+[22:40:37.382354 INFO] 
+[22:40:37.382372 INFO] available EnvPeriod: RUN PERIOD 1, available ReportingFrequencies: ["Daily", "Zone Timestep"]
+[22:40:37.382382 INFO] available variable names: ["Electricity:Facility"]
+[22:40:37.382392 INFO] variable names: Electricity:Facility
+[22:40:37.382398 INFO] available key value: [""]
+[22:40:37.382438 INFO] available variable names: ["DistrictCooling:Facility", "DistrictHeating:Facility", "Electric Equipment Electric Power", "Electricity:Facility", "Schedule Value", "Site Diffuse Solar Radiation Rate per Area", "Site Direct Solar Radiation Rate per Area", "Site Outdoor Air Drybulb Temperature", "Site Wind Speed", "Zone Air Heat Balance Air Energy Storage Rate", "Zone Air Heat Balance Deviation Rate", "Zone Air Heat Balance Internal Convective Heat Gain Rate", "Zone Air Heat Balance Outdoor Air Transfer Rate", "Zone Air Heat Balance Surface Convection Rate", "Zone Air Heat Balance System Air Transfer Rate", "Zone Air Heat Balance System Convective Heat Gain Rate", "Zone Air System Sensible Cooling Energy", "Zone Air System Sensible Heating Energy", "Zone Air Temperature", "Zone Electric Equipment Electric Power", "Zone Electric Equipment Total Heating Energy", "Zone Electric Equipment Total Heating Rate", "Zone Ideal Loads Zone Total Cooling Energy", "Zone Ideal Loads Zone Total Cooling Rate", "Zone Mixing Current Density Volume Flow Rate", "Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy", "Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy", "Zone Total Internal Convective Heating Rate", "Zone Total Internal Radiant Heating Rate", "Zone Total Internal Total Heating Rate"]
+[22:40:37.382448 INFO] variable names: DistrictCooling:Facility
+[22:40:37.382454 INFO] available key value: [""]
+[22:40:37.382461 INFO] variable names: DistrictHeating:Facility
+[22:40:37.382467 INFO] available key value: [""]
+[22:40:37.382476 INFO] variable names: Electric Equipment Electric Power
+[22:40:37.382482 INFO] available key value: ["PLENUMZONE_CONVECTIVEINTERNALGAIN", "PLENUMZONE_RADIATIONINTERNALGAIN"]
+[22:40:37.382490 INFO] variable names: Electricity:Facility
+[22:40:37.382496 INFO] available key value: [""]
+[22:40:37.382509 INFO] variable names: Schedule Value
+[22:40:37.382519 INFO] available key value: ["CONVECTIVE_LOAD_SCHEDULE", "COOLING_SCHEDULE_FILE", "HVAC_SCHEDULE", "MEASUREDPERIOD", "MEASURED_CHAMBER_TEMPERATURE", "MEASURED_COOLING_POWER", "MEASURED_EXTERNAL_TEMPERATURE", "MEASURED_PLENUM_TEMPERATURE", "MEASURED_TOTAL_HEAT_GAIN", "MEASURED_WATER_INLET_TEMPERATURE", "MIXING_SCHEDULE", "RADIATION_LOAD_SCHEDULE"]
+[22:40:37.382528 INFO] variable names: Site Diffuse Solar Radiation Rate per Area
+[22:40:37.382533 INFO] available key value: ["Environment"]
+[22:40:37.386318 INFO] variable names: Site Direct Solar Radiation Rate per Area
+[22:40:37.386367 INFO] available key value: ["Environment"]
+[22:40:37.386396 INFO] variable names: Site Outdoor Air Drybulb Temperature
+[22:40:37.386402 INFO] available key value: ["Environment"]
+[22:40:37.386419 INFO] variable names: Site Wind Speed
+[22:40:37.386440 INFO] available key value: ["Environment"]
+[22:40:37.386449 INFO] variable names: Zone Air Heat Balance Air Energy Storage Rate
+[22:40:37.386457 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386493 INFO] variable names: Zone Air Heat Balance Deviation Rate
+[22:40:37.386499 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386523 INFO] variable names: Zone Air Heat Balance Internal Convective Heat Gain Rate
+[22:40:37.386529 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386551 INFO] variable names: Zone Air Heat Balance Outdoor Air Transfer Rate
+[22:40:37.386557 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386564 INFO] variable names: Zone Air Heat Balance Surface Convection Rate
+[22:40:37.386570 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386578 INFO] variable names: Zone Air Heat Balance System Air Transfer Rate
+[22:40:37.386583 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386590 INFO] variable names: Zone Air Heat Balance System Convective Heat Gain Rate
+[22:40:37.386596 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386603 INFO] variable names: Zone Air System Sensible Cooling Energy
+[22:40:37.386609 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386616 INFO] variable names: Zone Air System Sensible Heating Energy
+[22:40:37.386622 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386630 INFO] variable names: Zone Air Temperature
+[22:40:37.386635 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386642 INFO] variable names: Zone Electric Equipment Electric Power
+[22:40:37.386648 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386656 INFO] variable names: Zone Electric Equipment Total Heating Energy
+[22:40:37.386661 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386668 INFO] variable names: Zone Electric Equipment Total Heating Rate
+[22:40:37.386673 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386683 INFO] variable names: Zone Ideal Loads Zone Total Cooling Energy
+[22:40:37.386689 INFO] available key value: ["COMPRESSOR IDEAL LOADS AIR SYSTEM", "CONDITIONEDZONE IDEAL LOADS AIR SYSTEM", "PLENUMZONE IDEAL LOADS AIR SYSTEM"]
+[22:40:37.386726 INFO] variable names: Zone Ideal Loads Zone Total Cooling Rate
+[22:40:37.386733 INFO] available key value: ["COMPRESSOR IDEAL LOADS AIR SYSTEM", "CONDITIONEDZONE IDEAL LOADS AIR SYSTEM", "PLENUMZONE IDEAL LOADS AIR SYSTEM"]
+[22:40:37.386741 INFO] variable names: Zone Mixing Current Density Volume Flow Rate
+[22:40:37.386760 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386768 INFO] variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Gain Energy
+[22:40:37.386774 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386782 INFO] variable names: Zone Opaque Surface Inside Faces Total Conduction Heat Loss Energy
+[22:40:37.386787 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386794 INFO] variable names: Zone Total Internal Convective Heating Rate
+[22:40:37.386800 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386807 INFO] variable names: Zone Total Internal Radiant Heating Rate
+[22:40:37.386812 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386846 INFO] variable names: Zone Total Internal Total Heating Rate
+[22:40:37.386851 INFO] available key value: ["CONDITIONEDZONE", "PLENUMZONE"]
+[22:40:37.386871 INFO] year: true
+[22:40:37.386876 INFO] seconds: false
+[22:40:37.386927 INFO] CSV Time format is correct: 01/02/2019 00:01 mm:dd:yy hh:mm
+[22:40:37.386932 INFO] Begin timeseries parsing
+[22:40:37.387118 INFO] timezone = -8.0
+[22:40:37.387153 INFO] timezone = -08:00
+[22:40:37.387190 INFO] {"PlenumTemperature"=>{:key=>"PLENUMZONE", :var=>"Zone Air Temperature", :index=>0}} 
+[22:40:37.387216 INFO] Date/Time - Date/Time - false - ["PlenumTemperature"]   - true
+[22:40:37.387244 INFO] Found Time Header: Date/Time
+[22:40:37.387251 INFO] ZoneTemperature - Date/Time - true - ["PlenumTemperature"]   - true
+[22:40:37.387258 INFO] PlenumTemperature - Date/Time - true - ["PlenumTemperature"]   - false
+[22:40:37.387264 INFO] hdr is: PlenumTemperature
+[22:40:37.387269 INFO] csv_var is: PlenumTemperature
+[22:40:37.387274 INFO] var: Zone Air Temperature
+[22:40:37.387278 INFO] key: PLENUMZONE
+[22:40:37.387286 INFO] ["RUN PERIOD 1"]
+[22:40:37.387292 INFO] sqlcall: RUN PERIOD 1,Timestep,Zone Air Temperature,PLENUMZONE
+[22:40:37.500176 INFO] ySum - 120776.65999999958 - n -> 2292
+[22:40:37.500208 INFO] Saving timeseries_PlenumTemperature.json
+[22:40:37.511468 INFO] start plotting
+[22:40:37.519192 DEBUG] Finished measure.run for 'TimeSeries Objective Function'
+[22:40:37.560897 DEBUG] Running of measure 'TimeSeries Objective Function' completed. Post-processing measure output
+[22:40:37.561028 INFO] Moving to the next workflow step.
+[22:40:37.561041 INFO] Finished applying Reporting measures.
+[22:40:37.561046 DEBUG] Communicating measures output attributes to the output adapter
+[22:40:37.563062 INFO] Saving the result hash to file
+[22:40:37.563419 DEBUG] Objective Function JSON is {}
+[22:40:37.563793 INFO] Current state: 'reporting_measures'
+[22:40:37.563810 INFO] Next state will be: 'postprocess'
+[22:40:37.569545 DEBUG] RunPostprocess passed the following options {:cleanup=>true, :debug=>true, :preserve_run_dir=>false, :skip_expand_objects=>false, :skip_energyplus_preprocess=>false, :profile=>false, :targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :energyplus_path=>nil, :verify_osw=>true, :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw", :fast=>false, :output_adapter=>#<OpenStudio::Workflow::OutputAdapter::Local:0x00007fcc1eaccf28 @options={:output_directory=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run"}>}
+[22:40:37.569812 DEBUG] RunPostprocess passed the following registry {:openstudio_2=>true, :osw_path=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PatRunTest_Rnew.osw>, :osw_dir=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft", :run_dir=>#<Pathname:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run>, :log_targets=>[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>], :logger=>#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, :workflow=>{:created_at=>"20210118T063909Z", :file_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"], :hash=>"860C5707", :measure_paths=>["/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"], :seed_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/07_2zones_20191224_RunBatch_out.osm", :steps=>[{:arguments=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv"}, :measure_dir_name=>"PAT_Csv_Input"}, {:arguments=>{:r_value=>0.038, :rcoil_coff=>0.75, :zone_capacitance_value=>21}, :measure_dir_name=>"PAT_Model_Input_new"}, {:arguments=>{:bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :surface_area=>0.01}, :measure_dir_name=>"PAT_ThermalMass"}, {:arguments=>{:mixing_flowrate=>0.0015}, :measure_dir_name=>"ideal_loads_options"}, {:arguments=>{:plot_name=>"Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}, {:arguments=>{:csv_var=>"PlenumTemperature", :key_value=>"PLENUMZONE", :plot_name=>"PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0\n_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015", :reporting_frequency=>"Timestep", :seconds=>false, :year=>true}, :measure_dir_name=>"TimeSeries Objective Function"}], :updated_at=>"20210118T063909Z", :weather_file=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"}, :datapoint=>nil, :analysis=>nil, :workflow_json=>#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, :root_dir=>#<OpenStudio::Path:0x00007fcc1c4a9e18 @__swigtype__="_p_openstudio__path">, :runner=>#<WorkflowRunner:0x00007fcc1c4a8dd8 @__swigtype__="_p_openstudio__measure__OSRunner", @multi_logger=#<Logger:0x00007fcc1eacd810 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007fcc1eacd798 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007fcc1eacd720 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<MultiDelegator:0x00007fcc1eacd8b0 @targets=[#<IO:<STDOUT>>, #<File:/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/run.log>]>, @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x00007fcc1eacd5e0>>>, @workflow_json=#<OpenStudio::WorkflowJSON:0x00007fcc1c4a9fd0 @__swigtype__="_p_openstudio__WorkflowJSON">, @openstudio_2=true, @datapoint=nil, @analysis=nil, @halted=false, @use_os_halted=true>, :model=>#<OpenStudio::Model::Model:0x00007fcc1c463648 @__swigtype__="_p_openstudio__model__Model">, :wf=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/in.epw", :output_attributes=>{:Input_CSV=>{"input_csv_folder_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", "test_data"=>"Experiment8_200214_input.csv", "year_input"=>2019, "measure_run_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", "measure_meter_csv_path"=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{"input_csv_path"=>"\"data_file.csv\"", "rcoil_coff"=>0.75, "zone_capacitance_value"=>21.0, "r_value"=>0.038, :applicable=>true}, :ThermalMassInput=>{"surface_area"=>0.01, "bronze_thermal_mass_layer_thickness"=>0.01, "plenum_surface_area"=>0.01, "plenum_thickness"=>0.01, :applicable=>true}, :IdealLoadsOptions=>{"idealLoadSystem"=>"ConditionedZone", "availability_schedule"=>"HVAC_SCHEDULE", "mixing_flowrate"=>0.0015, :applicable=>true}, :TimeseriesObjectiveFunction=>{"diff"=>7154.655784302693, "simdata"=>127931.315784303, "csvdata"=>120776.65999999958, "cvrmse"=>6.234651028017938, "nmbe"=>-5.923872861116309, "zone_temperature_nmbe"=>-0.9150862504095436, "zone_temperature_cvrmse"=>1.7548163170865205, :applicable=>true, "plenum_temperature_nmbe"=>-5.923872861116309, "plenum_temperature_cvrmse"=>6.234651028017938}}, :model_idf=>#<OpenStudio::Workspace:0x00007fcc1c291f40 @__swigtype__="_p_openstudio__Workspace">, :sql=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/eplusout.sql", :results=>{:Input_CSV=>{:input_csv_folder_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/PAT_calibration_input", :test_data=>"Experiment8_200214_input.csv", :year_input=>2019, :measure_run_csv_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_out.csv", :measure_meter_csv_path=>"/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/Experiment8_200214_input_metered.csv", :applicable=>true}, :ModelInputRCoil=>{:input_csv_path=>"\"data_file.csv\"", :rcoil_coff=>0.75, :zone_capacitance_value=>21.0, :r_value=>0.038, :applicable=>true}, :ThermalMassInput=>{:surface_area=>0.01, :bronze_thermal_mass_layer_thickness=>0.01, :plenum_surface_area=>0.01, :plenum_thickness=>0.01, :applicable=>true}, :IdealLoadsOptions=>{:idealLoadSystem=>"ConditionedZone", :availability_schedule=>"HVAC_SCHEDULE", :mixing_flowrate=>0.0015, :applicable=>true}, :TimeseriesObjectiveFunction=>{:diff=>7154.655784302693, :simdata=>127931.315784303, :csvdata=>120776.65999999958, :cvrmse=>6.234651028017938, :nmbe=>-5.923872861116309, :zone_temperature_nmbe=>-0.9150862504095436, :zone_temperature_cvrmse=>1.7548163170865205, :applicable=>true, :plenum_temperature_nmbe=>-5.923872861116309, :plenum_temperature_cvrmse=>6.234651028017938}}}
+[22:40:37.569854 DEBUG] Calling perform in the RunPostprocess class
+[22:40:37.569862 INFO] Gathering reports
+[22:40:37.569870 INFO] /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run
+[22:40:37.569876 INFO] /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft
+[22:40:37.570148 INFO] Saving EnergyPlus HTML report to /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/reports/eplustbl.html
+[22:40:37.571289 INFO] measure_xml_path: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/measures/TimeSeries Objective Function/measure.xml
+[22:40:37.571387 INFO] Saving report /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/005_TimeSeries Objective Function/report_PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015.html to /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/reports/time_series_objective_function_report_PlenumZoneTest8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015.html
+[22:40:37.582995 INFO] measure_xml_path: /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/measures/TimeSeries Objective Function/measure.xml
+[22:40:37.583126 INFO] Saving report /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/004_TimeSeries Objective Function/report_Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015.html to /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/reports/time_series_objective_function_report_Test8_RCoil_RunBatch0.75_CyclopentanceRvalue:0.038_zoneCap:21.0
+_ThermalMassArea:0.01_ThermalMassThickness:0.01_PlenumThermalMassArea:0.01_PlenumThermalMassThickness:0.01_MixingFlow_rate:0.0015.html
+[22:40:37.591944 INFO] Removing empty directory /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/001_PAT_Model_Input_new
+[22:40:37.592042 INFO] Removing empty directory /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/002_PAT_ThermalMass
+[22:40:37.592094 INFO] Removing empty directory /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/003_ideal_loads_options
+[22:40:37.592141 INFO] Removing empty directory /Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft/run/000_PAT_Csv_Input
+[22:40:37.592196 INFO] Finished gathering reports
+[22:40:37.592205 INFO] Beginning cleanup of the run directory
+[22:40:37.592760 INFO] Finished cleanup of the run directory
+[22:40:37.592773 INFO] Finished postprocess
+[22:40:37.592783 INFO] Current state: 'postprocess'
+[22:40:37.592792 INFO] Next state will be: 'finished'
+[22:40:37.592800 INFO] Finished workflow - communicating results and zipping files
+[22:40:39.784395 INFO] Workflow complete

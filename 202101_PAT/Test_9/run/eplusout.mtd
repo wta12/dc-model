@@ -1,0 +1,324 @@
+
+ Meters for 17,CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CONDITIONEDZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CONDITIONEDZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 94,PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PLENUMZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PLENUMZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 123,PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PLENUMZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PLENUMZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 144,COMPRESSOR:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COMPRESSOR [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:COMPRESSOR [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 217,COMPRESSOR:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COMPRESSOR [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:COMPRESSOR [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 254,CONDITIONEDZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONDITIONEDZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CONDITIONEDZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 279,CONDITIONEDZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONDITIONEDZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CONDITIONEDZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 293,PLENUMZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PLENUMZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PLENUMZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 318,PLENUMZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PLENUMZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PLENUMZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 332,COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 381,COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 432,CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 433,CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 436,PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 437,PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 440,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 489,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 538,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 599,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 624,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 625,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:CONDITIONEDZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CONDITIONEDZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONDITIONEDZONE_CHILLED_WATER_GAIN:Electric Equipment Electric Energy
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:PLENUMZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PLENUMZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PLENUMZONE_CONVECTIVEINTERNALGAIN:Electric Equipment Electric Energy
+  PLENUMZONE_RADIATIONINTERNALGAIN:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:COMPRESSOR [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:COMPRESSOR [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  COMPRESSOR:Zone Air System Sensible Heating Energy
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:COMPRESSOR [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  COMPRESSOR:Zone Air System Sensible Cooling Energy
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CONDITIONEDZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CONDITIONEDZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CONDITIONEDZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CONDITIONEDZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CONDITIONEDZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PLENUMZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PLENUMZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PLENUMZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PLENUMZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PLENUMZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  COMPRESSOR IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  CONDITIONEDZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  PLENUMZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
