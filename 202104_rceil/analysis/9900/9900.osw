@@ -1,0 +1,76 @@
+{
+   "created_at" : "20210416T035622Z",
+   "file_paths" : 
+   [
+      "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft",
+      "../../PAT_calibration_input"
+   ],
+   "hash" : "5B0D6292",
+   "measure_paths" : 
+   [
+      "../../Run_Measures"
+   ],
+   "seed_file" : "../../07_2zones_20191224_RunBatch_out.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "input_csv_folder_path" : "PAT_calibration_input",
+            "test_data" : "Experiment8_200214_input.csv"
+         },
+         "measure_dir_name" : "input_csv Cloned"
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 0.037999999999999999,
+            "rceil" : 0.053999999999999999,
+            "rcoil_coff" : 0.75,
+            "zone_capacitance_value" : 21.0
+         },
+         "measure_dir_name" : "model_input_r_coil Cloned"
+      },
+      {
+         "arguments" : 
+         {
+            "bronze_thermal_mass_layer_thickness" : 0.12,
+            "plenum_surface_area" : 0.01,
+            "plenum_thickness" : 0.01,
+            "surface_area" : 0.040000000000000001
+         },
+         "measure_dir_name" : "thermal_mass_input Cloned"
+      },
+      {
+         "arguments" : 
+         {
+            "mixing_flowrate" : 0.0030000000000000001
+         },
+         "measure_dir_name" : "ideal_loads_options Cloned"
+      },
+      {
+         "arguments" : 
+         {
+            "plot_name" : "Test8_RCoil_RunBatch0.75_Rvalue:0.038_zoneCap:21.0_rceil:0.054\n_TMArea:0.04_TMThickness:0.12_PleTMArea:0.01_PleTMThickness:0.01_Mixing_rate:0.003",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "timeseries_objective_function Cloned"
+      },
+      {
+         "arguments" : 
+         {
+            "csv_var" : "PlenumTemperature",
+            "key_value" : "PLENUMZONE",
+            "plot_name" : "PlenumZoneTest8_RCoil_RunBatch0.75_Rvalue:0.038_zoneCap:21.0_rceil:0.054\n_TMArea:0.04_TMThickness:0.12_PleTMArea:0.01_PleTMThickness:0.01_Mixing_rate:0.003",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "timeseries_objective_function Cloned"
+      }
+   ],
+   "updated_at" : "20210416T035711Z",
+   "weather_file" : "../../CA_EL-MONTE_747043_17.epw"
+}

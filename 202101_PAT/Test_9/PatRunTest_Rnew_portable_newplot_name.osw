@@ -1,0 +1,74 @@
+{
+   "created_at" : "20210130T131701Z",
+   "file_paths" : 
+   [
+      "C:/Projects/DC-validation/202101_PAT/Test_9"
+   ],
+   "hash" : "1A398FBD",
+   "measure_paths" : 
+   [
+      "C:/Projects/DC-validation/202101_PAT/Measure Development"
+   ],
+   "seed_file" : "C:/Projects/DC-validation/202101_PAT/Input/07_2zones_20191224.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "input_csv_folder_path" : "C:/Projects/DC-validation/202101_PAT/Input/PAT_calibration_input",
+            "test_data" : "Experiment9_200707_input.csv"
+         },
+         "measure_dir_name" : "PAT_Csv_Input"
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 0.037999999999999999,
+            "rcoil_coff" : 0.75,
+            "zone_capacitance_value" : 21.0
+         },
+         "measure_dir_name" : "PAT_Model_Input_new"
+      },
+      {
+         "arguments" : 
+         {
+            "bronze_thermal_mass_layer_thickness" : 0.12,
+            "plenum_surface_area" : 0.01,
+            "plenum_thickness" : 0.11,
+            "surface_area" : 0.02
+         },
+         "measure_dir_name" : "PAT_ThermalMass"
+      },
+      {
+         "arguments" : 
+         {
+            "mixing_flowrate" : 0.0030000000000000001
+         },
+         "measure_dir_name" : "ideal_loads_options"
+      },
+      {
+         "arguments" : 
+         {
+            "plot_name" : "conditonedZoneTimeSeries",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function"
+      },
+      {
+         "arguments" : 
+         {
+            "csv_var" : "PlenumTemperature",
+            "key_value" : "PLENUMZONE",
+            "plot_name" : "plenumZoneTimeSeries",
+            "reporting_frequency" : "Timestep",
+            "seconds" : false,
+            "year" : true
+         },
+         "measure_dir_name" : "TimeSeries Objective Function"
+      }
+   ],
+   "updated_at" : "20210130T131701Z",
+   "weather_file" : "C:/Projects/DC-validation/202101_PAT/CA_EL-MONTE_747043_17.epw"
+}
