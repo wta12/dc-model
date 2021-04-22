@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.04.22 09:51,
+Program Version,EnergyPlus, Version 9.4.0-998c4b761e, YMD=2021.04.22 10:21,
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
@@ -7,8 +7,8 @@ Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.04.22 09:51,
    ** Warning ** ComputeIntSolarAbsorpFactors: Solar distribution model is set to place solar gains on the zone floor,
    **   ~~~   ** ...Enclosure="PLENUMZONE" has no floor, but has approximate horizontal surfaces.
    **   ~~~   ** ...these Tilt > 120 degrees, (area=[0.12] m2) will be used.
-   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
-   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="NATURALGAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="NATURALGAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
    ************* Testing Individual Branch Integrity
    ************* All Branches passed integrity testing
@@ -31,10 +31,18 @@ Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2021.04.22 09:51,
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=ConditionedZone, VarName=ZONE ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep
+   ************* Key=PlenumZone, VarName=ZONE ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep
+   ************* Key=PlenumZone, VarName=ZONE ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep
+   ************* Key=PlenumZone_ConvectiveInternalGain, VarName=ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep
+   ************* Key=PlenumZone_radiationInternalGain, VarName=ELECTRIC EQUIPMENT ELECTRIC POWER, Frequency=TimeStep
    ************* There are 5 unused schedules in input.
    ************* There are 5 unused week schedules in input.
    ************* There are 5 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 15 Warning; 0 Severe Errors; Elapsed Time=00hr 01min 36.07sec
+   ************* EnergyPlus Completed Successfully-- 16 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 10.92sec

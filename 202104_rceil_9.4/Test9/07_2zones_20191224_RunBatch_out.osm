@@ -1,16 +1,16 @@
 
 OS:Version,
-  {bbc9bf7d-2682-42ec-adbd-5001478b7129}, !- Handle
+  {070f3d7a-607d-4f06-b28a-8c018c778068}, !- Handle
   3.1.0;                                  !- Version Identifier
 
 OS:Schedule:Constant,
-  {6534f8af-83b4-4440-bb58-794766c444b0}, !- Handle
+  {9fad7f8f-9afb-4025-89b6-2dcc5e80d80a}, !- Handle
   Always On Discrete,                     !- Name
-  {1cf680a6-8e4b-4a9b-84df-6e4ff496f0ba}, !- Schedule Type Limits Name
+  {fb1a312f-79c7-42ca-a68f-7fe94306d4db}, !- Schedule Type Limits Name
   1;                                      !- Value
 
 OS:ScheduleTypeLimits,
-  {1cf680a6-8e4b-4a9b-84df-6e4ff496f0ba}, !- Handle
+  {fb1a312f-79c7-42ca-a68f-7fe94306d4db}, !- Handle
   Always On Discrete Limits,              !- Name
   0,                                      !- Lower Limit Value
   1,                                      !- Upper Limit Value

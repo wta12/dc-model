@@ -29,15 +29,15 @@
     "applicable": true
   },
   "TimeseriesObjectiveFunction": {
-    "diff": 117632.00044727353,
-    "simdata": 57316.472177726435,
+    "diff": 117631.79148875011,
+    "simdata": 57316.681136249994,
     "csvdata": 174948.47262500235,
-    "cvrmse": 71.60941439154126,
-    "nmbe": 67.23808369531454,
-    "zone_temperature_nmbe": 65.38829160075062,
-    "zone_temperature_cvrmse": 69.53518941739354,
+    "cvrmse": 71.60927874721347,
+    "nmbe": 67.23796425527584,
+    "zone_temperature_nmbe": 65.38816847056025,
+    "zone_temperature_cvrmse": 69.53504805859413,
     "applicable": true,
-    "plenum_temperature_nmbe": 67.23808369531454,
-    "plenum_temperature_cvrmse": 71.60941439154126
+    "plenum_temperature_nmbe": 67.23796425527584,
+    "plenum_temperature_cvrmse": 71.60927874721347
   }
 }

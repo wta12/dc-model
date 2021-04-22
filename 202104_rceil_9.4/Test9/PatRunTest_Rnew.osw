@@ -1,10 +1,10 @@
 {
-   "created_at" : "20210422T165141Z",
+   "created_at" : "20210422T172108Z",
    "file_paths" : 
    [
       "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Draft"
    ],
-   "hash" : "26B120E0",
+   "hash" : "9DFBED4F",
    "measure_paths" : 
    [
       "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/Measure Development"
@@ -70,6 +70,6 @@
          "measure_dir_name" : "TimeSeries Objective Function"
       }
    ],
-   "updated_at" : "20210422T165141Z",
+   "updated_at" : "20210422T172108Z",
    "weather_file" : "/Users/kcu/Desktop/Scripting/NREL_Work/Cooling_Boxes/OS_Model/CA_EL-MONTE_747043_17.epw"
 }

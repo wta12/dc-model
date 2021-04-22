@@ -1,6 +1,6 @@
 
 Version,
-  9.3;                                    !- Version Identifier
+  9.4;                                    !- Version Identifier
 
 Timestep,
   60;                                     !- Number of Timesteps per Hour
@@ -217,12 +217,13 @@ Zone,
   0.530048201779473,                      !- Y Origin {m}
   1.80477854883065e-16,                   !- Z Origin {m}
   ,                                       !- Type
-  ,                                       !- Multiplier
+  1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
   ,                                       !- Zone Inside Convection Algorithm
-  ;                                       !- Zone Outside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
 
 BuildingSurface:Detailed,
   Surface 15,                             !- Name
@@ -325,7 +326,14 @@ ZoneControl:Thermostat,
   Compressor,                             !- Zone or ZoneList Name
   Compressor Thermostat Schedule,         !- Control Type Schedule Name
   ThermostatSetpoint:SingleHeatingOrCooling, !- Control 1 Object Type
-  CompressorSingleThermoStat;             !- Control 1 Name
+  CompressorSingleThermoStat,             !- Control 1 Name
+  ,                                       !- Control 2 Object Type
+  ,                                       !- Control 2 Name
+  ,                                       !- Control 3 Object Type
+  ,                                       !- Control 3 Name
+  ,                                       !- Control 4 Object Type
+  ,                                       !- Control 4 Name
+  0;                                      !- Temperature Difference Between Cutout And Setpoint {deltaC}
 
 Schedule:Compact,
   Compressor Thermostat Schedule,         !- Name
@@ -394,17 +402,18 @@ HVACTemplate:Zone:IdealLoadsAirSystem,
 
 Zone,
   ConditionedZone,                        !- Name
-  ,                                       !- Direction of Relative North {deg}
+  0,                                      !- Direction of Relative North {deg}
   2.37469753706411,                       !- X Origin {m}
   0.530048201779473,                      !- Y Origin {m}
   1.80477854883065e-16,                   !- Z Origin {m}
   ,                                       !- Type
-  ,                                       !- Multiplier
+  1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
   ,                                       !- Zone Inside Convection Algorithm
-  ;                                       !- Zone Outside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
 
 BuildingSurface:Detailed,
   ConditionedZone_Floor_exterior,         !- Name
@@ -542,7 +551,14 @@ ZoneControl:Thermostat,
   ConditionedZone,                        !- Zone or ZoneList Name
   ConditionedZone Thermostat Schedule,    !- Control Type Schedule Name
   ThermostatSetpoint:SingleHeatingOrCooling, !- Control 1 Object Type
-  ConditionedZoneSingleThermoStat;        !- Control 1 Name
+  ConditionedZoneSingleThermoStat,        !- Control 1 Name
+  ,                                       !- Control 2 Object Type
+  ,                                       !- Control 2 Name
+  ,                                       !- Control 3 Object Type
+  ,                                       !- Control 3 Name
+  ,                                       !- Control 4 Object Type
+  ,                                       !- Control 4 Name
+  0;                                      !- Temperature Difference Between Cutout And Setpoint {deltaC}
 
 Schedule:Compact,
   ConditionedZone Thermostat Schedule,    !- Name
@@ -604,17 +620,18 @@ HVACTemplate:Zone:IdealLoadsAirSystem,
 
 Zone,
   PlenumZone,                             !- Name
-  ,                                       !- Direction of Relative North {deg}
+  0,                                      !- Direction of Relative North {deg}
   2.77469753706411,                       !- X Origin {m}
   0.530048201779473,                      !- Y Origin {m}
   0.27,                                   !- Z Origin {m}
   ,                                       !- Type
-  ,                                       !- Multiplier
+  1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
   ,                                       !- Floor Area {m2}
   ,                                       !- Zone Inside Convection Algorithm
-  ;                                       !- Zone Outside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
 
 BuildingSurface:Detailed,
   PlenumZone_RoofCeiling_exterior,        !- Name
@@ -743,7 +760,14 @@ ZoneControl:Thermostat,
   PlenumZone,                             !- Zone or ZoneList Name
   PlenumZone Thermostat Schedule,         !- Control Type Schedule Name
   ThermostatSetpoint:SingleHeatingOrCooling, !- Control 1 Object Type
-  PlenumZoneSingleThermoStat;             !- Control 1 Name
+  PlenumZoneSingleThermoStat,             !- Control 1 Name
+  ,                                       !- Control 2 Object Type
+  ,                                       !- Control 2 Name
+  ,                                       !- Control 3 Object Type
+  ,                                       !- Control 3 Name
+  ,                                       !- Control 4 Object Type
+  ,                                       !- Control 4 Name
+  0;                                      !- Temperature Difference Between Cutout And Setpoint {deltaC}
 
 Schedule:Compact,
   PlenumZone Thermostat Schedule,         !- Name
@@ -809,7 +833,8 @@ SimulationControl,
   No,                                     !- Do Plant Sizing Calculation
   No,                                     !- Run Simulation for Sizing Periods
   Yes,                                    !- Run Simulation for Weather File Run Periods
-  No;                                     !- Do HVAC Sizing Simulation for Sizing Periods
+  No,                                     !- Do HVAC Sizing Simulation for Sizing Periods
+  ;                                       !- Maximum Number of HVAC Sizing Simulation Passes
 
 ConvergenceLimits,
   1;                                      !- Minimum System Timestep {minutes}
@@ -1466,7 +1491,7 @@ EnergyManagementSystem:Actuator,
   ChilledWaterGainActuator,               !- Name
   ConditionedZone_chilled_water_gain,     !- Actuated Component Unique Name
   ElectricEquipment,                      !- Actuated Component Type
-  Electric Power Level;                   !- Actuated Component Control Type
+  Electricity Rate;                       !- Actuated Component Control Type
 
 EnergyManagementSystem:Actuator,
   EnviromentDiffSolarActuator,            !- Name
